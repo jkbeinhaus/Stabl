@@ -1,0 +1,1800 @@
+***************************** Iteration 1 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 2 features selected
+
+STABL finished on Neighborhood (56 samples); 12 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 19 features selected for STABL
+This fold: 71 features selected for SS 03
+This fold: 26 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 2 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 10 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 16 features selected for STABL
+This fold: 73 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 3 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 0 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 24 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 4 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 7 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 5 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 6 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 68 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 6 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 3 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 5 features selected for STABL
+This fold: 68 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 7 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 13 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 16 features selected for STABL
+This fold: 68 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 8 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 5 features selected for STABL
+This fold: 66 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+***************************** Iteration 9 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 86 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 5 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 10 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 7 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 5 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 68 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 5 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 11 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 10 features selected
+
+STABL finished on Function (56 samples); 3 features selected
+
+STABL finished on Neighborhood (56 samples); 1 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 15 features selected for STABL
+This fold: 74 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 12 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 64 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 13 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 15 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 17 features selected for STABL
+This fold: 79 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 14 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 5 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 67 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 15 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 3 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 16 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 6 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 3 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 11 features selected for STABL
+This fold: 61 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 17 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 79 features selected for SS 03
+This fold: 23 features selected for SS 05
+This fold: 1 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 18 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 12 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 4 features selected
+
+STABL finished on Metavariables (57 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 21 features selected for STABL
+This fold: 64 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 19 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 5 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 20 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 21 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 1 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 22 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 7 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 23 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 9 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 78 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 24 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 3 features selected for STABL
+This fold: 75 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 25 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 4 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 71 features selected for SS 03
+This fold: 15 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 26 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 6 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 3 features selected
+
+STABL finished on Metavariables (56 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 23 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 27 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 6 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 28 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 5 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 15 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 29 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 3 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 11 features selected for STABL
+This fold: 73 features selected for SS 03
+This fold: 24 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 30 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 65 features selected for SS 03
+This fold: 15 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 31 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 2 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 1 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 71 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 32 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 3 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 33 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 4 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 71 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 34 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 5 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 74 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 35 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 4 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 36 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 2 features selected
+
+STABL finished on Function (56 samples); 3 features selected
+
+STABL finished on Neighborhood (56 samples); 9 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 15 features selected for STABL
+This fold: 78 features selected for SS 03
+This fold: 25 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 37 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 8 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 13 features selected for STABL
+This fold: 61 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 38 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 8 features selected
+
+STABL finished on Neighborhood (57 samples); 3 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 17 features selected for STABL
+This fold: 68 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 39 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 60 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 40 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 10 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 13 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 41 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 2 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 77 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 42 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 74 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 43 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 79 features selected for SS 03
+This fold: 13 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 44 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 12 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 15 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 45 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 46 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 73 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 47 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 3 features selected
+
+STABL finished on Metavariables (57 samples); 0 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 71 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 48 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 77 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 49 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 9 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 74 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 50 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 3 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 64 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 6 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 51 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 3 features selected
+
+STABL finished on Function (56 samples); 1 features selected
+
+STABL finished on Neighborhood (56 samples); 1 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 52 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 5 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 53 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 1 features selected
+
+STABL finished on Function (57 samples); 3 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 5 features selected for STABL
+This fold: 80 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 54 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 4 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 55 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 7 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 56 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 5 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 14 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 21 features selected for STABL
+This fold: 63 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 57 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 6 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 58 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 7 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 71 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 59 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 11 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 60 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 5 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 61 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 2 features selected
+
+STABL finished on Neighborhood (56 samples); 4 features selected
+
+STABL finished on Metavariables (56 samples); 5 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 15 features selected for STABL
+This fold: 63 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 62 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 3 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 62 features selected for SS 03
+This fold: 13 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 63 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 15 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 64 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 65 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 6 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 66 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 5 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 75 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 67 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 4 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 13 features selected for STABL
+This fold: 62 features selected for SS 03
+This fold: 24 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 68 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 3 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 69 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 5 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 73 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 70 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 6 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 5 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 15 features selected for STABL
+This fold: 64 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 71 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 20 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 21 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 72 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 66 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 73 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 65 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 74 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 6 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 9 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 75 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 76 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 5 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 66 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 77 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 78 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 2 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 75 features selected for SS 03
+This fold: 23 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 79 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 14 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 21 features selected for STABL
+This fold: 73 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 80 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 1 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 2 features selected for STABL
+This fold: 74 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 81 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 1 features selected
+
+STABL finished on Neighborhood (56 samples); 2 features selected
+
+STABL finished on Metavariables (56 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 24 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 82 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 6 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 15 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 83 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 5 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 79 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 84 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 6 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 11 features selected for STABL
+This fold: 67 features selected for SS 03
+This fold: 23 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 85 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 5 features selected
+
+STABL finished on Function (57 samples); 5 features selected
+
+STABL finished on Neighborhood (57 samples); 1 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 14 features selected for STABL
+This fold: 59 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 86 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 12 features selected
+
+STABL finished on Function (56 samples); 0 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 14 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 87 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 6 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 8 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 88 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 16 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 89 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 3 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 72 features selected for SS 03
+This fold: 25 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 90 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 7 features selected
+
+STABL finished on Function (57 samples); 3 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 91 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 6 features selected
+
+STABL finished on Function (56 samples); 3 features selected
+
+STABL finished on Neighborhood (56 samples); 0 features selected
+
+STABL finished on Metavariables (56 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 11 features selected for STABL
+This fold: 86 features selected for SS 03
+This fold: 22 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 92 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 69 features selected for SS 03
+This fold: 18 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 93 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 9 features selected
+
+STABL finished on Metavariables (57 samples); 4 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 18 features selected for STABL
+This fold: 58 features selected for SS 03
+This fold: 24 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 94 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 1 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 4 features selected for STABL
+This fold: 76 features selected for SS 03
+This fold: 19 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 95 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 5 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 3 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 11 features selected for STABL
+This fold: 70 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 96 over 100 ***************************** 
+
+56 train samples, 15 test samples
+STABL finished on Celldensities (56 samples); 4 features selected
+
+STABL finished on Function (56 samples); 3 features selected
+
+STABL finished on Neighborhood (56 samples); 2 features selected
+
+STABL finished on Metavariables (56 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 12 features selected for STABL
+This fold: 65 features selected for SS 03
+This fold: 20 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 97 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 1 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 2 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 3 features selected for STABL
+This fold: 67 features selected for SS 03
+This fold: 17 features selected for SS 05
+This fold: 3 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 98 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 3 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 4 features selected
+
+STABL finished on Metavariables (57 samples); 3 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 10 features selected for STABL
+This fold: 66 features selected for SS 03
+This fold: 25 features selected for SS 05
+This fold: 4 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 99 over 100 ***************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 4 features selected
+
+STABL finished on Function (57 samples); 2 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 7 features selected for STABL
+This fold: 63 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**************************** Iteration 100 over 100 **************************** 
+
+57 train samples, 14 test samples
+STABL finished on Celldensities (57 samples); 2 features selected
+
+STABL finished on Function (57 samples); 0 features selected
+
+STABL finished on Neighborhood (57 samples); 0 features selected
+
+STABL finished on Metavariables (57 samples); 1 features selected
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This fold: 3 features selected for STABL
+This fold: 77 features selected for SS 03
+This fold: 21 features selected for SS 05
+This fold: 2 features selected for SS 08
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

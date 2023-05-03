@@ -23,7 +23,7 @@ X_meta = pd.read_csv('./UOPfinal_metavariables.csv',index_col=0)
 X_neigh = pd.read_csv('./UOPfinal_neighborhood.csv',index_col=0)
 
 y = pd.read_csv('./UOPfinal_outcome.csv',index_col=0)
-y = y.UOPfinal
+y = y.grade
 train_data_dict = {
     "Celldensities": X_dens, 
     "Function": X_func,
@@ -57,6 +57,7 @@ predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=y,
     outer_splitter=outer_splitter,
+    stabl = stabl,
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder)
