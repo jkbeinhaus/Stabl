@@ -22,7 +22,11 @@ X_Metavariables = pd.read_csv('./UOPfinal_metavariables.csv',index_col=0)
 X_Neighborhood = pd.read_csv('./UOPfinal_neighborhood.csv',index_col=0)
 
 y = pd.read_csv('./UOPfinal_outcome.csv',index_col=0)
+<<<<<<< HEAD
 y = y.grade-1
+=======
+y = y.grade
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
 train_data_dict = {
     "Celldensities": X_Celldensities, 
     "Function": X_Function,
@@ -56,7 +60,11 @@ predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=y,
     outer_splitter=outer_splitter,
+<<<<<<< HEAD
     stabl=stabl,
+=======
+    stabl = stabl,
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder)
@@ -107,4 +115,10 @@ features_table = compute_features_table(
     y_train=y,
     task_type="binary"
 )
+<<<<<<< HEAD
 features_table.to_csv(Path(result_folder, "Training-Validation", "Table of features.csv"))
+=======
+features_table.to_csv(Path(result_folder, "Training-Validation", "Table of features.csv"))
+# Table for Maximum stability scores
+save_stabl_results(path = Path(result_folder, "Stabl-results"))
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
