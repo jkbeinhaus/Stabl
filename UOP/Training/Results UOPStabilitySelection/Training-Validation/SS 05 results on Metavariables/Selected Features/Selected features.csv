@@ -1,0 +1,10 @@
+,Feature Name
+Feature n°1,Tumor.non.proliferating_intratumor_area
+Feature n°2,CD4.T.cells.memory_stromal_area
+Feature n°3,CD4.T.cells.regulatory_tumorfront_area
+Feature n°4,CD8.T.cells._intratumor_area
+Feature n°5,Tumor.proliferating_tumorfront_celldistance
+Feature n°6,Fibroblasts._tumorfront_celldistance
+Feature n°7,CD4.T.cells.regulatory_tumorfront_celldistance
+Feature n°8,Myeloid.Granulocytes_tumorfront_celldistance
+Feature n°9,Myeloid.Monocytes_tumorfront_celldistance

@@ -1,0 +1,4 @@
+Feature,Associated weight
+Tumor.non.proliferating_intratumor_cellfrequency,0.8573872997911045
+CD4.T.cells.regulatory_stromal_pS6,0.6508189017395202
+Tumor.non.proliferating_intratumor_area,-0.7937136296207037
