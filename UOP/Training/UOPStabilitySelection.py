@@ -23,6 +23,16 @@ X_Neighborhood = pd.read_csv('./UOPfinal_neighborhood.csv',index_col=0)
 
 y = pd.read_csv('./UOPfinal_outcome.csv',index_col=0)
 y = y.grade-1
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+y = y.grade-1
+=======
+y = y.grade
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
+>>>>>>> 5e1041722d128715cfd0ed6896d72a5adb180b48
+>>>>>>> 69219f120a06feb4aa433406144221bb913c34ac
 train_data_dict = {
     "Celldensities": X_Celldensities, 
     "Function": X_Function,

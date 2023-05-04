@@ -3,15 +3,15 @@ Fold 0,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stroma
 Fold 1,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 2,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD4.T.cells.memory_stromal_area']",3
 Fold 3,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",3
-Fold 4,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_tumorfront_CD44', 'Tumor.non.proliferating_intratumor_area']",3
-Fold 5,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",4
+Fold 4,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_tumorfront_CD44', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area']",4
+Fold 5,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",4
 Fold 6,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 7,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area']",4
-Fold 8,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area', 'CD4.T.cells.memory_stromal_area']",5
-Fold 9,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_tumorfront_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'CD8.T.cells._intratumor_area', 'Myeloid.Monocytes_tumorfront_celldistance']",5
+Fold 8,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_tumorfront_CD44', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area', 'CD4.T.cells.memory_stromal_area']",5
+Fold 9,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_tumorfront_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'CD8.T.cells._intratumor_CD36', 'CD8.T.cells._intratumor_area', 'Myeloid.Monocytes_tumorfront_celldistance']",6
 Fold 10,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages']",2
 Fold 11,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
-Fold 12,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",3
+Fold 12,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",4
 Fold 13,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 14,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Monocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 15,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages']",2
@@ -24,7 +24,7 @@ Fold 21,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocy
 Fold 22,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 23,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 24,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area', 'Myeloid.Monocytes_tumorfront_celldistance']",4
-Fold 25,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_tumorfront_aggregatedNeighbors.Vessel.', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area']",4
+Fold 25,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_tumorfront_aggregatedNeighbors.Vessel.', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",5
 Fold 26,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",3
 Fold 27,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 28,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6']",2
@@ -34,8 +34,8 @@ Fold 31,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrop
 Fold 32,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 33,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 34,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
-Fold 35,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6']",2
-Fold 36,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",4
+Fold 35,['Tumor.non.proliferating_intratumor_cellfrequency'],1
+Fold 36,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD4.T.cells.memory_stromal_area']",4
 Fold 37,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 38,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 39,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
@@ -45,20 +45,20 @@ Fold 42,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.prolife
 Fold 43,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 44,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'Tumor.proliferating_tumorfront_celldistance']",3
 Fold 45,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD4.T.cells.memory_stromal_area']",3
-Fold 46,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",4
+Fold 46,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages']",2
 Fold 47,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",3
 Fold 48,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area']",3
-Fold 49,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Vessel._tumorfront_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",6
+Fold 49,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Vessel._tumorfront_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",5
 Fold 50,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",4
 Fold 51,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",3
 Fold 52,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
-Fold 53,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'CD4.T.cells.memory_stromal_pS6', 'Tumor.non.proliferating_intratumor_area']",4
+Fold 53,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'CD4.T.cells.memory_stromal_pS6', 'Tumor.non.proliferating_intratumor_area']",5
 Fold 54,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_stromal_GranzymeB', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 55,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 56,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD4.T.cells.memory_stromal_area', 'Tumor.proliferating_tumorfront_celldistance']",4
-Fold 57,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'Tumor.non.proliferating_intratumor_area']",3
-Fold 58,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_tumorfront_CD44', 'Tumor.non.proliferating_intratumor_area']",3
-Fold 59,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages']",3
+Fold 57,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
+Fold 58,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
+Fold 59,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages']",2
 Fold 60,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 61,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",4
 Fold 62,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_tumorfront_cellfrequency', 'CD4.T.cells.memory_stromal_area']",3
@@ -66,8 +66,8 @@ Fold 63,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocy
 Fold 64,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 65,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Monocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 66,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area', 'CD8.T.cells._intratumor_area']",4
-Fold 67,"['Tumor.non.proliferating_intratumor_cellfrequency', 'CD4.T.cells.regulatory_stromal_pS6']",2
-Fold 68,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_intratumor_cellfrequency']",2
+Fold 67,['Tumor.non.proliferating_intratumor_cellfrequency'],1
+Fold 68,['Tumor.non.proliferating_intratumor_cellfrequency'],1
 Fold 69,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.M1.macrophages_stromal_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 70,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'Myeloid.Monocytes_tumorfront_celldistance']",3
 Fold 71,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
@@ -82,7 +82,7 @@ Fold 79,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.prolife
 Fold 80,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 81,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 82,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
-Fold 83,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area', 'Myeloid.Monocytes_tumorfront_celldistance']",3
+Fold 83,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.Monocytes_tumorfront_celldistance']",2
 Fold 84,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Myeloid.DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages', 'Tumor.non.proliferating_intratumor_area']",3
 Fold 85,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
 Fold 86,"['Tumor.non.proliferating_intratumor_cellfrequency', 'Tumor.non.proliferating_intratumor_area']",2
