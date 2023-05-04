@@ -44,14 +44,14 @@ stabl = Stabl(
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
     sample_fraction=.5,
-    random_state=1
+    random_state=11
  )
 
 outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=1)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.3)
 # Multi-omic Training-CV
-np.random.seed(1)
+np.random.seed(11)
 predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=y,
@@ -62,7 +62,7 @@ predictions_dict = multi_omic_stabl_cv(
     save_path=Path(result_folder)
 )
 # Multiomic Training to derive coefficients
-np.random.seed(1)
+np.random.seed(11)
 stabl_multi = Stabl(
     lambda_grid=np.linspace(0.01, 5, 30),
     n_bootstraps=5000,
@@ -72,7 +72,7 @@ stabl_multi = Stabl(
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
     sample_fraction=.5,
-    random_state=1
+    random_state=11
 )
 
 stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.3)
