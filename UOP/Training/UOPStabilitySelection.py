@@ -22,7 +22,15 @@ X_Metavariables = pd.read_csv('./UOPfinal_metavariables.csv',index_col=0)
 X_Neighborhood = pd.read_csv('./UOPfinal_neighborhood.csv',index_col=0)
 
 y = pd.read_csv('./UOPfinal_outcome.csv',index_col=0)
+<<<<<<< HEAD
 y = y.grade-1
+=======
+<<<<<<< HEAD
+y = y.grade-1
+=======
+y = y.grade
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
+>>>>>>> 5e1041722d128715cfd0ed6896d72a5adb180b48
 train_data_dict = {
     "Celldensities": X_Celldensities, 
     "Function": X_Function,
@@ -56,25 +64,27 @@ predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=y,
     outer_splitter=outer_splitter,
+<<<<<<< HEAD
+    stabl=stabl,
+=======
     stabl = stabl,
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder)
 )
-# Multiomic Stabl
-lasso = Lasso(max_iter=int(1e6))
-
+# Multiomic Training to derive coefficients
+np.random.seed(1)
 stabl_multi = Stabl(
-    base_estimator=lasso,
-    lambda_name='alpha',
-    lambda_grid=np.logspace(0, 2, 30),
-    n_bootstraps=500,
+    lambda_grid=np.linspace(0.01, 5, 30),
+    n_bootstraps=5000,
     artificial_proportion=1.,
     artificial_type="random_permutation",
+    hard_threshold=None,
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
     sample_fraction=.5,
-    random_state=42
+    random_state=1
 )
 
 stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.3)
@@ -84,11 +94,20 @@ predictions_dict = multi_omic_stabl(
     stabl=stabl_multi,
     stability_selection=stability_selection,
     task_type="binary",
-    save_path=Path(result_folder, "omics"),
+    save_path=Path(result_folder),
+)
+# Late fusion lasso
+late_fusion_lasso_cv(
+    train_data_dict=train_data_dict,
+    y=y,
+    outer_splitter=outer_splitter,
+    task_type="binary",
+    save_path=result_folder,
+    groups=None
 )
 # Features Table
 selected_features_dict = dict()
-for model in ["STABL", "SS 03"]:
+for model in ["STABL", "EF Lasso", "SS 03", "SS 05", "SS 08"]:
     path = Path(result_folder, "Training-Validation", f"{model} coefficients.csv")
     try:
         selected_features_dict[model] = list(pd.read_csv(path, index_col=0).iloc[:, 0].index)
@@ -100,6 +119,10 @@ features_table = compute_features_table(
     y_train=y,
     task_type="binary"
 )
+<<<<<<< HEAD
+features_table.to_csv(Path(result_folder, "Training-Validation", "Table of features.csv"))
+=======
 features_table.to_csv(Path(result_folder, "Training-Validation", "Table of features.csv"))
 # Table for Maximum stability scores
 save_stabl_results(path = Path(result_folder, "Stabl-results"))
+>>>>>>> 71685292f9fbee27da06a0827c806e9f92c52e5e
