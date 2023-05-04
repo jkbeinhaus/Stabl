@@ -22,7 +22,7 @@ X_Metavariables = pd.read_csv('./UOPfinal_metavariables.csv',index_col=0)
 X_Neighborhood = pd.read_csv('./UOPfinal_neighborhood.csv',index_col=0)
 
 y = pd.read_csv('./UOPfinal_outcome.csv',index_col=0)
-y = y.grade
+y = y.grade-1
 train_data_dict = {
     "Celldensities": X_Celldensities, 
     "Function": X_Function,
