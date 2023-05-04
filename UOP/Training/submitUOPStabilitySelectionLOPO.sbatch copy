@@ -3,8 +3,8 @@
 #SBATCH --time=48:00:00
 #SBATCH --ntasks=1
 #SBATCH --mem-per-cpu=2G
-#SBATCH --output=UOP_SS.out
-#SBATCH --error=UOP_SS.err
+#SBATCH --output=UOP_SS_LOPO.out
+#SBATCH --error=UOP_SS_LOPO.err
 #SBATCH -p normal
 #SBATCH -c 2
 
