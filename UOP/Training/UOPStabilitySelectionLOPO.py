@@ -51,7 +51,7 @@ stabl = Stabl(
 
 outer_splitter = LeaveOneGroupOut()
 
-stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.3)
+stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.6)
 # Multi-omic Training-CV
 np.random.seed(11)
 predictions_dict = multi_omic_stabl_cv(
@@ -62,7 +62,7 @@ predictions_dict = multi_omic_stabl_cv(
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder,
-    outer_groups=patient_groups)
+    groups=patient_groups)
 )
 # Multiomic Training to derive coefficients
 np.random.seed(11)
@@ -78,7 +78,7 @@ stabl_multi = Stabl(
     random_state=11
 )
 
-stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.3)
+stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.6)
 predictions_dict = multi_omic_stabl(
     data_dict=train_data_dict,
     y=y,
