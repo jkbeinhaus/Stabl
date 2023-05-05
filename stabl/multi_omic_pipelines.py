@@ -46,7 +46,7 @@ def multi_omic_stabl_cv(
         stability_selection,
         task_type,
         save_path,
-        outer_groups=None
+        outer_groups
 ):
     """
 
