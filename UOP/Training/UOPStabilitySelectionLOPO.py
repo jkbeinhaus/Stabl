@@ -30,7 +30,7 @@ train_data_dict = {
     "Neighborhood": X_Neighborhood,
     "Metavariables": X_Metavariables
     }
-patient_groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0).to_numpy().flatten()
+patient_groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0)
 # Results folder
 result_folder = "./Results UOPStabilitySelection"
 # Main script
