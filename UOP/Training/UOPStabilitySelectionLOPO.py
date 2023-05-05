@@ -32,7 +32,7 @@ train_data_dict = {
     }
 patient_groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0)
 # Results folder
-result_folder = "./Results UOPStabilitySelection"
+result_folder = "./Results UOPStabilitySelectionLOPO"
 # Main script
 for omic_name, X_omic in train_data_dict.items():
     X_omic = remove_low_info_samples(X_omic)
