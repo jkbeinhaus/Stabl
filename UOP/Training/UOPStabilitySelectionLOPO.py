@@ -62,6 +62,7 @@ predictions_dict = multi_omic_stabl_cv(
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder,
+    outer_groups=patient_groups,
     groups=patient_groups)
 )
 # Multiomic Training to derive coefficients
