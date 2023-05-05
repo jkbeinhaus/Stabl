@@ -30,7 +30,7 @@ train_data_dict = {
     "Neighborhood": X_Neighborhood,
     "Metavariables": X_Metavariables
     }
-groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0)
+outer_groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0)
 # Results folder
 result_folder = "./Results UOPStabilitySelectionLOPO"
 # Main script
@@ -54,6 +54,7 @@ outer_splitter = LeaveOneGroupOut()
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.6)
 # Multi-omic Training-CV
 np.random.seed(11)
+outer_groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0)
 predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=y,
@@ -62,7 +63,7 @@ predictions_dict = multi_omic_stabl_cv(
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder,
-    outer_groups=groups)
+    outer_groups=outer_groups)
 )
 # Multiomic Training to derive coefficients
 np.random.seed(11)
