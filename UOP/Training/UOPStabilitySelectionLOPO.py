@@ -6,6 +6,7 @@ import pandas as pd
 from pathlib import Path
 
 from sklearn.model_selection import LeaveOneGroupOut
+from sklearn.model_selection import GroupShuffleSplit
 from sklearn.model_selection import RepeatedStratifiedKFold
 from sklearn.base import clone
 from sklearn.linear_model import Lasso
@@ -50,12 +51,12 @@ stabl = Stabl(
     random_state=11
  )
 
-outer_splitter = LeaveOneGroupOut()
+outer_splitter = GroupShuffleSplit(n_splits=100, test_size=.2, random_state=11)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.6)
 # Multi-omic Training-CV
 np.random.seed(11)
-outer_groups = outer_groups
+
 predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=y,
@@ -95,7 +96,7 @@ late_fusion_lasso_cv(
     outer_splitter=outer_splitter,
     task_type="binary",
     save_path=result_folder,
-    groups=None
+    groups=outer_groups
 )
 # Features Table
 selected_features_dict = dict()
