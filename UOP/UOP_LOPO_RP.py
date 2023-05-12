@@ -1,6 +1,7 @@
 import warnings
 warnings.filterwarnings('ignore')
 # Libraries
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -18,20 +19,20 @@ from stabl.multi_omic_pipelines import multi_omic_stabl, multi_omic_stabl_cv, la
 from stabl.single_omic_pipelines import single_omic_stabl, single_omic_stabl_cv
 from stabl.pipelines_utils import compute_features_table
 # Data
-X_Celldensities = pd.read_csv('./UOPfinal_celldensities.csv',index_col=0)
-X_Function = pd.read_csv('./UOPfinal_functional.csv',index_col=0)
-X_Metavariables = pd.read_csv('./UOPfinal_metavariables.csv',index_col=0)
-X_Neighborhood = pd.read_csv('./UOPfinal_neighborhood.csv',index_col=0)
+X_Celldensities = pd.read_csv('./DataTraining/UOPfinal_celldensities.csv',index_col=0)
+X_Function = pd.read_csv('./DataTraining/UOPfinal_functional.csv',index_col=0)
+X_Metavariables = pd.read_csv('./DataTraining/UOPfinal_metavariables.csv',index_col=0)
+X_Neighborhood = pd.read_csv('./DataTraining/UOPfinal_neighborhood.csv',index_col=0)
 
-Val_Celldensities = pd.read_csv('../Validation/Val_celldensities.csv',index_col=0)
-Val_Function = pd.read_csv('../Validation/Val_functional.csv',index_col=0)
-Val_Metavariables = pd.read_csv('../Validation/Val_metavariables.csv',index_col=0)
-Val_Neighborhood = pd.read_csv('../Validation/Val_neighborhood.csv',index_col=0)
+Val_Celldensities = pd.read_csv('./DataValidation/Val_celldensities.csv',index_col=0)
+Val_Function = pd.read_csv('./DataValidation/Val_functional.csv',index_col=0)
+Val_Metavariables = pd.read_csv('./DataValidation/Val_metavariables.csv',index_col=0)
+Val_Neighborhood = pd.read_csv('./DataValidation/Val_neighborhood.csv',index_col=0)
 
-y = pd.read_csv('./UOPfinal_outcome.csv',index_col=0)
+y = pd.read_csv('./DataTraining/UOPfinal_outcome.csv',index_col=0)
 y = y.grade-1
 
-y_test = pd.read_csv('../Validation/Val_outcome.csv',index_col=0)
+y_test = pd.read_csv('./DataValidation/Val_outcome.csv',index_col=0)
 y_test = y_test.grade-1
 train_data_dict = {
     "Celldensities": X_Celldensities, 
@@ -47,7 +48,7 @@ test_data_dict = {
     "Metavariables": Val_Metavariables
 }
 # Define Leave-one-patient-out CV
-groups = pd.read_csv('./UOPfinal_patient_groups.csv', index_col=0)
+groups = pd.read_csv('./DataTraining/UOPfinal_patient_groups.csv', index_col=0)
 outer_groups = groups.to_numpy().flatten()
 # Results folder
 result_folder = "./UOP_LOPO_RP"
@@ -69,7 +70,7 @@ stabl = Stabl(
 
 outer_splitter = LeaveOneGroupOut()
 
-stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.3)
+stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
 # Multi-omic Training-CV
 np.random.seed(1)
 predictions_dict = multi_omic_stabl_cv(
@@ -95,14 +96,14 @@ stabl_multi = Stabl(
     random_state=1
 )
 
-stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.3)
+stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.5)
 predictions_dict = multi_omic_stabl(
     data_dict=train_data_dict,
     y=y,
     stabl=stabl_multi,
     stability_selection=stability_selection,
     task_type="binary",
-    save_path=Path(result_folder, "ValidationCohort"),
+    save_path=Path(result_folder),
     X_test=pd.concat(test_data_dict.values(),axis=1),
     y_test=y_test
 )
