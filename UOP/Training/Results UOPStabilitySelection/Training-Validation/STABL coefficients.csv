@@ -1,8 +1,0 @@
-Feature,Associated weight
-Tumor.non.proliferating_intratumor_cellfrequency,3.470899507934828
-Myeloid.M1.macrophages_intratumor_cellfrequency,4.180717619172304
-Myeloid.M1.macrophages_stromal_cellfrequency,1.1004302759970621
-Myeloid.Monocytes_stromal_cellfrequency,3.1119788197711307
-Tumor.non.proliferating_intratumor_area,-0.5454209392205057
-CD4.T.cells.memory_stromal_area,-2.18503111570795
-CD8.T.cells._intratumor_area,-0.8666493990503153
