@@ -98,7 +98,7 @@ stabl_multi = Stabl(
 stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.3)
 predictions_dict = multi_omic_stabl(
     data_dict=train_data_dict,
-    y=y_test,
+    y=y,
     stabl=stabl_multi,
     stability_selection=stability_selection,
     task_type="binary",
