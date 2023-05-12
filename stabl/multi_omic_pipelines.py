@@ -460,7 +460,7 @@ def late_fusion_lasso_cv(train_data_dict, y, outer_splitter, task_type, save_pat
         y_omic = y.loc[X_omic.index]
         i = 1
         print(f"Omic {omic_name}")
-        for train, test in outer_splitter.split(X_omic, y_omic, groups=groups):
+        for train, test in outer_splitter.split(X_omic, y_omic, groups=outer_groups):
             print(f"Iteration {i} over {outer_splitter.get_n_splits()}")
 
             train_idx, test_idx = y_omic.iloc[train].index, y_omic.iloc[test].index
