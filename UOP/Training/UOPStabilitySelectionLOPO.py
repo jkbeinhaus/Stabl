@@ -102,7 +102,7 @@ predictions_dict = multi_omic_stabl(
     stabl=stabl_multi,
     stability_selection=stability_selection,
     task_type="binary",
-    save_path=Path(result_folder),
+    save_path=Path(result_folder, "ValidationCohort"),
     X_test=pd.concat(test_data_dict.values(),axis=1),
     y_test=y_test
 )
