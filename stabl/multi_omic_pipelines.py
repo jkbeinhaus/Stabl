@@ -28,14 +28,15 @@ logit_lasso_cv = LogisticRegressionCV(penalty="l1", solver="liblinear", Cs=np.lo
 logit = LogisticRegression(penalty=None, class_weight="balanced", max_iter=int(1e6))
 linreg = LinearRegression()
 
-preprocessing = Pipeline(
-    steps=[
-        ("variance", VarianceThreshold(0.01)),
-        ("lif", LowInfoFilter()),
-        ("impute", SimpleImputer(strategy="median")),
-        ("std", StandardScaler())
-    ]
-)
+
+#preprocessing = Pipeline(
+#    steps=[
+#        ("variance", VarianceThreshold(0.01)),
+#        ("lif", LowInfoFilter()),
+#        ("impute", SimpleImputer(strategy="median")),
+#        ("std", StandardScaler())
+#    ]
+#)
 
 
 def multi_omic_stabl_cv(
@@ -46,6 +47,7 @@ def multi_omic_stabl_cv(
         stability_selection,
         task_type,
         save_path,
+        var_threshold=0.01,
         outer_groups=None
 ):
     """
@@ -79,6 +81,17 @@ def multi_omic_stabl_cv(
     -------
 
     """
+    preprocessing = Pipeline(
+    steps=[
+        ("variance", VarianceThreshold(var_threshold)),
+        ("lif", LowInfoFilter()),
+        ("impute", SimpleImputer(strategy="median")),
+        ("std", StandardScaler())
+        ]
+    )
+
+    print("New variance threshold = ", var_threshold)
+    
     models = ["STABL", "SS 03", "SS 05", "SS 08", "EF Lasso"]
 
     os.makedirs(Path(save_path, "Training CV"), exist_ok=True)
@@ -279,6 +292,7 @@ def multi_omic_stabl(
         stability_selection,
         task_type,
         save_path,
+        var_threshold=0.01,
         X_test=None,
         y_test=None
 ):
@@ -305,6 +319,16 @@ def multi_omic_stabl(
     -------
 
     """
+
+    preprocessing = Pipeline(
+    steps=[
+        ("variance", VarianceThreshold(var_threshold)),
+        ("lif", LowInfoFilter()),
+        ("impute", SimpleImputer(strategy="median")),
+        ("std", StandardScaler())
+        ]
+    )
+
     models = ["STABL", "SS 03", "SS 05", "SS 08", "EF Lasso"]
 
     os.makedirs(Path(save_path, "Training-Validation"), exist_ok=True)
@@ -451,7 +475,16 @@ def multi_omic_stabl(
     return predictions_dict
 
 
-def late_fusion_lasso_cv(train_data_dict, y, outer_splitter, task_type, save_path, groups=None):
+def late_fusion_lasso_cv(train_data_dict, y, outer_splitter, task_type, save_path, var_threshold=0.01, groups=None):
+
+    preprocessing = Pipeline(
+    steps=[
+        ("variance", VarianceThreshold(var_threshold)),
+        ("lif", LowInfoFilter()),
+        ("impute", SimpleImputer(strategy="median")),
+        ("std", StandardScaler())
+        ]
+    )
 
     predictions_dict = {model: pd.DataFrame(data=None, index=y.index) for model in train_data_dict.keys()}
     omics_selected_features = {model: [] for model in train_data_dict.keys()}

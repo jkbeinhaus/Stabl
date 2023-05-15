@@ -51,15 +51,6 @@ groups = pd.read_csv('./DataTraining/UOPfinal_patient_groups.csv', index_col=0)
 outer_groups = groups.to_numpy().flatten()
 # Results folder
 result_folder = "./UOP_MC_RP_withVal"
-#Preprocessing
-preprocessing = Pipeline(
-    steps=[
-        ("variance", VarianceThreshold(0.1)),
-        ("lif", LowInfoFilter()),
-        ("impute", SimpleImputer(strategy="median")),
-        ("std", StandardScaler())
-    ]
-)
 
 # Main script
 for omic_name, X_omic in train_data_dict.items():
@@ -90,6 +81,7 @@ predictions_dict = multi_omic_stabl_cv(
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder),
+    var_threshold=0.1,
     outer_groups=None)
 # Multiomic Training to derive coefficients
 np.random.seed(1)
@@ -113,6 +105,7 @@ predictions_dict = multi_omic_stabl(
     stability_selection=stability_selection,
     task_type="binary",
     save_path=Path(result_folder),
+    var_threshold=0.1,
     X_test=pd.concat(test_data_dict.values(),axis=1),
     y_test=y_test
 )
@@ -123,6 +116,7 @@ late_fusion_lasso_cv(
     outer_splitter=outer_splitter,
     task_type="binary",
     save_path=result_folder,
+    var_threshold=0.1,
     groups=None
 )
 # Features Table
