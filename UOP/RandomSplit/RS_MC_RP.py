@@ -59,6 +59,7 @@ X_Function = pd.concat([Val_Function, UOP_Function])
 X_Metavariables = pd.concat([Val_Metavariables, UOP_Metavariables])
 X_Neighborhood = pd.concat([Val_Neighborhood, UOP_Neighborhood])
 y = pd.concat([Val_y, UOP_y])
+y['patient_id'] = y.index.str.split('_').str.get(0)
 
 data = {
     'Celldensities': X_Celldensities,
@@ -67,13 +68,19 @@ data = {
     'Neighborhood': X_Neighborhood,
     'Outcome': y
 }
+y
+unique_patients = pd.DataFrame(y['patient_id'].unique(), columns=['patient_id'])
+unique_patients = unique_patients.merge(y, on='patient_id', how = 'left') 
+unique_patients = unique_patients.drop_duplicates(subset=['patient_id', 'grade', 'site'])
+unique_patients
 # Split the dataframe into training and validation sets
-train_df, val_df = train_test_split(y, test_size=0.25, stratify=y[['site', 'grade']], random_state=1)
+train_df, val_df = train_test_split(unique_patients, test_size=0.25, stratify=unique_patients[['site', 'grade']], random_state=1)
 train_df
 # Print the shapes of the training and validation sets
 print("Training set shape:", train_df.shape)
 print("Validation set shape:", val_df.shape)
-train_indices = train_df.index
+train_indices = y[y['patient_id'].isin(train_df['patient_id'])].index
+train_indices
 # Split each dataframe in the data dictionary into train and test
 train_data_dict = {}
 test_data_dict = {}
@@ -115,7 +122,7 @@ stability_selection = clone(stabl).set_params(artificial_type=None, hard_thresho
 np.random.seed(111)
 predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
-    y=y,
+    y=train_outcome,
     outer_splitter=outer_splitter,
     stabl=stabl,
     stability_selection=stability_selection,
