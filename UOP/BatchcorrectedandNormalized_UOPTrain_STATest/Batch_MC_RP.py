@@ -13,6 +13,7 @@ from sklearn.linear_model import Lasso
 from stabl.stabl import Stabl, plot_stabl_path, plot_fdr_graph, save_stabl_results, export_stabl_to_csv
 from stabl.preprocessing import LowInfoFilter, remove_low_info_samples
 
+%config InlineBackend.figure_formats=['retina']
 from stabl.multi_omic_pipelines import multi_omic_stabl, multi_omic_stabl_cv, late_fusion_lasso_cv
 from stabl.single_omic_pipelines import single_omic_stabl, single_omic_stabl_cv
 from stabl.pipelines_utils import compute_features_table
@@ -29,8 +30,19 @@ UOP_data = {
     'UOP_Neighborhood': UOP_Neighborhood
 }
 
+for data_name, data_frame in UOP_data.items():
+    numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
+    UOP_data[data_name][numeric_columns] = UOP_data[data_name][numeric_columns].apply(zscore)
+
 UOP_y = pd.read_csv('../DataTraining/UOPfinal_outcome.csv',index_col=0)
 UOP_y = UOP_y.grade-1
+# Compute mean and standard deviation for each data layer in UOP_data
+train_means = {}
+train_stds = {}
+for data_name, data_frame in UOP_data.items():
+    numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
+    train_means[data_name] = data_frame[numeric_columns].mean()
+    train_stds[data_name] = data_frame[numeric_columns].std()
 Val_Celldensities =     pd.read_csv('../DataBatchcorrected/Val_celldensities_corr.csv', index_col=0)
 Val_Function =          pd.read_csv('../DataBatchcorrected/Val_functional_corr.csv', index_col=0)
 Val_Metavariables =     pd.read_csv('../DataBatchcorrected/Val_metavariables_corr.csv', index_col=0)
@@ -43,6 +55,12 @@ val_data = {
     'Val_Neighborhood': Val_Neighborhood
 }
 
+# Normalize each data layer in val_data using the mean and standard deviation from UOP_data
+for data_name, data_frame in val_data.items():
+    if data_name in UOP_data:
+        numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
+        data_frame[numeric_columns] = (data_frame[numeric_columns] - train_means[data_name]) / train_stds[data_name]
+        
 Val_y = pd.read_csv('../DataValidation/Val_outcome.csv',index_col=0)
 Val_y = Val_y.grade-1
 train_data_dict = UOP_data
