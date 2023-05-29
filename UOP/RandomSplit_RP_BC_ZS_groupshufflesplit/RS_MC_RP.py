@@ -97,7 +97,7 @@ stabl = Stabl(
     random_state=111
  )
 
-outer_splitter = GroupShuffleSplit(n_splits=5, n_repeats=20, random_state=1)
+outer_splitter = GroupShuffleSplit(n_splits=100, test_size=.2, random_state=111)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
 # Multi-omic Training-CV
