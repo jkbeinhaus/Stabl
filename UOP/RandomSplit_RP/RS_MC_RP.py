@@ -74,13 +74,14 @@ unique_patients = unique_patients.merge(y, on='patient_id', how = 'left')
 unique_patients = unique_patients.drop_duplicates(subset=['patient_id', 'grade', 'site'])
 unique_patients
 # Split the dataframe into training and validation sets
-train_df, val_df = train_test_split(unique_patients, test_size=0.25, stratify=unique_patients[['site', 'grade']], random_state=1)
+train_df, val_df = train_test_split(unique_patients, test_size=0.25, stratify=unique_patients[['site', 'grade']], random_state=111)
 train_df
 # Print the shapes of the training and validation sets
 print("Training set shape:", train_df.shape)
 print("Validation set shape:", val_df.shape)
 train_indices = y[y['patient_id'].isin(train_df['patient_id'])].index
 train_indices
+tmp = pd.DataFrame(index = train_indices)
 # Split each dataframe in the data dictionary into train and test
 train_data_dict = {}
 test_data_dict = {}
@@ -115,7 +116,7 @@ stabl = Stabl(
     random_state=111
  )
 
-outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=1)
+outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=111)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
 # Multi-omic Training-CV
@@ -153,15 +154,6 @@ predictions_dict = multi_omic_stabl(
     save_path=Path(result_folder),
     X_test=pd.concat(test_data_dict.values(),axis=1),
     y_test=test_outcome
-)
-# Late fusion lasso
-late_fusion_lasso_cv(
-    train_data_dict=train_data_dict,
-    y=train_outcome,
-    outer_splitter=outer_splitter,
-    task_type="binary",
-    save_path=result_folder,
-    groups=None
 )
 # Features Table
 selected_features_dict = dict()
