@@ -57,7 +57,7 @@ for key, df in data.items():
     test_data_dict[key] = test_df
 
 train_outcome = y.loc[train_indices].grade-1
-train_outcome = y.drop(train_indices).grade-1
+test_outcome = y.drop(train_indices).grade-1
 #Zscore training data
 for data_name, data_frame in train_data_dict.items():
     numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
