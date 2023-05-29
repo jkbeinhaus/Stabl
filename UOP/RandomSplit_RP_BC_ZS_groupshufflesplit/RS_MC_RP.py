@@ -48,6 +48,9 @@ print("Training set shape:", train_df.shape)
 print("Validation set shape:", val_df.shape)
 train_indices = y[y['patient_id'].isin(train_df['patient_id'])].index
 train_indices
+# Define outer groups
+groups = y[y['patient_id'].isin(train_df['patient_id'])]
+outer_groups = groups.patient_id.to_numpy().flatten()
 # Split each dataframe in the data dictionary into train and test
 train_data_dict = {}
 test_data_dict = {}
