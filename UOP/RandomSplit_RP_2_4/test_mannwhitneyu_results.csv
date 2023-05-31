@@ -1,0 +1,911 @@
+,Celldensities,Function,Metavariables,Neighborhood
+Tumor non-proliferating_intratumor_cellfrequency,"{'Statistic': 1258.0, 'p-value': 0.017504576955352385}",,,
+Tumor non-proliferating_stromal_cellfrequency,"{'Statistic': 526.0, 'p-value': 8.998607155883666e-11}",,,
+Tumor non-proliferating_tumorfront_cellfrequency,"{'Statistic': 1232.0, 'p-value': 0.011675592128678136}",,,
+Tumor proliferating_intratumor_cellfrequency,"{'Statistic': 442.0, 'p-value': 3.5452564681176147e-12}",,,
+Tumor proliferating_stromal_cellfrequency,"{'Statistic': 556.0, 'p-value': 2.1254578836437485e-10}",,,
+Tumor proliferating_tumorfront_cellfrequency,"{'Statistic': 884.0, 'p-value': 7.669878957150658e-06}",,,
+Vessel_intratumor_cellfrequency,"{'Statistic': 676.0, 'p-value': 1.4368054741424923e-08}",,,
+Vessel_stromal_cellfrequency,"{'Statistic': 914.0, 'p-value': 1.6634195770604138e-05}",,,
+Vessel_tumorfront_cellfrequency,"{'Statistic': 862.0, 'p-value': 4.2741166743935506e-06}",,,
+Fibroblasts_intratumor_cellfrequency,"{'Statistic': 204.0, 'p-value': 4.4312578078783385e-17}",,,
+Fibroblasts_stromal_cellfrequency,"{'Statistic': 916.0, 'p-value': 1.749813113135257e-05}",,,
+Fibroblasts_tumorfront_cellfrequency,"{'Statistic': 762.0, 'p-value': 2.487889888652219e-07}",,,
+CD4 T cells naive_intratumor_cellfrequency,"{'Statistic': 1102.0, 'p-value': 0.0009843343288844948}",,,
+CD4 T cells naive_stromal_cellfrequency,"{'Statistic': 794.0, 'p-value': 6.382098753631597e-07}",,,
+CD4 T cells naive_tumorfront_cellfrequency,"{'Statistic': 908.0, 'p-value': 1.4232721822759503e-05}",,,
+CD4 T cells memory_intratumor_cellfrequency,"{'Statistic': 1132.0, 'p-value': 0.0017933340094845374}",,,
+CD4 T cells memory_stromal_cellfrequency,"{'Statistic': 908.0, 'p-value': 1.4279657454013785e-05}",,,
+CD4 T cells memory_tumorfront_cellfrequency,"{'Statistic': 1086.0, 'p-value': 0.0008350689519732437}",,,
+CD4 T cells regulatory_intratumor_cellfrequency,"{'Statistic': 928.0, 'p-value': 1.7584455472308256e-05}",,,
+CD4 T cells regulatory_stromal_cellfrequency,"{'Statistic': 944.0, 'p-value': 3.50861254408609e-05}",,,
+CD4 T cells regulatory_tumorfront_cellfrequency,"{'Statistic': 974.0, 'p-value': 7.180691072566134e-05}",,,
+B cells_intratumor_cellfrequency,"{'Statistic': 236.0, 'p-value': 2.387161442629597e-16}",,,
+B cells_stromal_cellfrequency,"{'Statistic': 588.0, 'p-value': 8.472406806371777e-10}",,,
+B cells_tumorfront_cellfrequency,"{'Statistic': 594.0, 'p-value': 1.00822161700639e-09}",,,
+CD8 T cells_intratumor_cellfrequency,"{'Statistic': 968.0, 'p-value': 6.180046284842363e-05}",,,
+CD8 T cells_stromal_cellfrequency,"{'Statistic': 1174.0, 'p-value': 0.004409863945393803}",,,
+CD8 T cells_tumorfront_cellfrequency,"{'Statistic': 1172.0, 'p-value': 0.004256876894577177}",,,
+Myeloid M1 macrophages_intratumor_cellfrequency,"{'Statistic': 560.0, 'p-value': 2.7048893660094105e-10}",,,
+Myeloid M1 macrophages_stromal_cellfrequency,"{'Statistic': 998.0, 'p-value': 0.00012577118072687915}",,,
+Myeloid M1 macrophages_tumorfront_cellfrequency,"{'Statistic': 1228.0, 'p-value': 0.010951537399852468}",,,
+Myeloid M2 macrophages_intratumor_cellfrequency,"{'Statistic': 470.0, 'p-value': 7.982560234774291e-12}",,,
+Myeloid M2 macrophages_stromal_cellfrequency,"{'Statistic': 708.0, 'p-value': 4.719597068992789e-08}",,,
+Myeloid M2 macrophages_tumorfront_cellfrequency,"{'Statistic': 798.0, 'p-value': 7.168557540978044e-07}",,,
+Myeloid Granulocytes_intratumor_cellfrequency,"{'Statistic': 410.0, 'p-value': 6.720965455607931e-13}",,,
+Myeloid Granulocytes_stromal_cellfrequency,"{'Statistic': 502.0, 'p-value': 3.655314508687621e-11}",,,
+Myeloid Granulocytes_tumorfront_cellfrequency,"{'Statistic': 472.0, 'p-value': 1.1551427667966226e-11}",,,
+Myeloid DCs_intratumor_cellfrequency,"{'Statistic': 384.0, 'p-value': 2.369338950117476e-13}",,,
+Myeloid DCs_stromal_cellfrequency,"{'Statistic': 622.0, 'p-value': 2.780556553601903e-09}",,,
+Myeloid DCs_tumorfront_cellfrequency,"{'Statistic': 652.0, 'p-value': 7.643483888238663e-09}",,,
+Myeloid Monocytes_intratumor_cellfrequency,"{'Statistic': 708.0, 'p-value': 4.3781636807539e-08}",,,
+Myeloid Monocytes_stromal_cellfrequency,"{'Statistic': 766.0, 'p-value': 2.80379187943973e-07}",,,
+Myeloid Monocytes_tumorfront_cellfrequency,"{'Statistic': 880.0, 'p-value': 6.904483439242492e-06}",,,
+Tumor non-proliferating_intratumor_pp38,,"{'Statistic': 888.0, 'p-value': 8.518474198404205e-06}",,
+Tumor non-proliferating_intratumor_pSTAT1,,"{'Statistic': 888.0, 'p-value': 8.518474198404205e-06}",,
+Tumor non-proliferating_intratumor_pSTAT3,,"{'Statistic': 1044.0, 'p-value': 0.00034819262891974483}",,
+Tumor non-proliferating_intratumor_CD36,,"{'Statistic': 592.0, 'p-value': 9.817421144590888e-10}",,
+Tumor non-proliferating_intratumor_E-Cadherin,,"{'Statistic': 806.0, 'p-value': 9.026231846025375e-07}",,
+Tumor non-proliferating_intratumor_VEGF,,"{'Statistic': 678.0, 'p-value': 1.8034506956846623e-08}",,
+Tumor non-proliferating_intratumor_pCREB,,"{'Statistic': 1070.0, 'p-value': 0.0006021182029774997}",,
+Tumor non-proliferating_intratumor_pNFkB,,"{'Statistic': 648.0, 'p-value': 6.703949541270135e-09}",,
+Tumor non-proliferating_intratumor_GranzymeB,,"{'Statistic': 906.0, 'p-value': 1.3568076110030907e-05}",,
+Tumor non-proliferating_intratumor_Ki67,,"{'Statistic': 826.0, 'p-value': 1.590180136711833e-06}",,
+Tumor non-proliferating_intratumor_CD44,,"{'Statistic': 946.0, 'p-value': 3.686021872515394e-05}",,
+Tumor non-proliferating_intratumor_pERK,,"{'Statistic': 822.0, 'p-value': 1.4212834758863329e-06}",,
+Tumor non-proliferating_intratumor_pMAPKAPK2,,"{'Statistic': 886.0, 'p-value': 8.08420857956116e-06}",,
+Tumor non-proliferating_intratumor_pS6,,"{'Statistic': 976.0, 'p-value': 7.557347194163198e-05}",,
+Tumor non-proliferating_stromal_pp38,,"{'Statistic': 1162.0, 'p-value': 0.003556194336828141}",,
+Tumor non-proliferating_stromal_pSTAT1,,"{'Statistic': 952.0, 'p-value': 4.253072454289509e-05}",,
+Tumor non-proliferating_stromal_pSTAT3,,"{'Statistic': 1094.0, 'p-value': 0.0009799906507744914}",,
+Tumor non-proliferating_stromal_CD36,,"{'Statistic': 828.0, 'p-value': 1.6793189048621134e-06}",,
+Tumor non-proliferating_stromal_E-Cadherin,,"{'Statistic': 892.0, 'p-value': 9.443258979003532e-06}",,
+Tumor non-proliferating_stromal_VEGF,,"{'Statistic': 830.0, 'p-value': 1.7766077387971533e-06}",,
+Tumor non-proliferating_stromal_pCREB,,"{'Statistic': 858.0, 'p-value': 3.833489772380973e-06}",,
+Tumor non-proliferating_stromal_pNFkB,,"{'Statistic': 1006.0, 'p-value': 0.0001507298652365961}",,
+Tumor non-proliferating_stromal_GranzymeB,,"{'Statistic': 1036.0, 'p-value': 0.0002928430169095819}",,
+Tumor non-proliferating_stromal_Ki67,,"{'Statistic': 1066.0, 'p-value': 0.0005526097122165983}",,
+Tumor non-proliferating_stromal_CD44,,"{'Statistic': 996.0, 'p-value': 0.00012003984036612285}",,
+Tumor non-proliferating_stromal_pERK,,"{'Statistic': 884.0, 'p-value': 7.65014330639523e-06}",,
+Tumor non-proliferating_stromal_pMAPKAPK2,,"{'Statistic': 922.0, 'p-value': 2.033077416279098e-05}",,
+Tumor non-proliferating_stromal_pS6,,"{'Statistic': 1068.0, 'p-value': 0.0005773971176500899}",,
+Tumor non-proliferating_tumorfront_pp38,,"{'Statistic': 832.0, 'p-value': 1.8801782800931192e-06}",,
+Tumor non-proliferating_tumorfront_pSTAT1,,"{'Statistic': 862.0, 'p-value': 4.2741166743935506e-06}",,
+Tumor non-proliferating_tumorfront_pSTAT3,,"{'Statistic': 1070.0, 'p-value': 0.0006021182029774997}",,
+Tumor non-proliferating_tumorfront_CD36,,"{'Statistic': 652.0, 'p-value': 7.66171933289323e-09}",,
+Tumor non-proliferating_tumorfront_E-Cadherin,,"{'Statistic': 656.0, 'p-value': 8.752026736716401e-09}",,
+Tumor non-proliferating_tumorfront_VEGF,,"{'Statistic': 532.0, 'p-value': 1.126168159969419e-10}",,
+Tumor non-proliferating_tumorfront_pCREB,,"{'Statistic': 832.0, 'p-value': 1.8801782800931192e-06}",,
+Tumor non-proliferating_tumorfront_pNFkB,,"{'Statistic': 826.0, 'p-value': 1.590180136711833e-06}",,
+Tumor non-proliferating_tumorfront_GranzymeB,,"{'Statistic': 974.0, 'p-value': 7.210193820575846e-05}",,
+Tumor non-proliferating_tumorfront_Ki67,,"{'Statistic': 768.0, 'p-value': 2.9761782467495517e-07}",,
+Tumor non-proliferating_tumorfront_CD44,,"{'Statistic': 1092.0, 'p-value': 0.0009422238766431011}",,
+Tumor non-proliferating_tumorfront_pERK,,"{'Statistic': 674.0, 'p-value': 1.5830450331067656e-08}",,
+Tumor non-proliferating_tumorfront_pMAPKAPK2,,"{'Statistic': 650.0, 'p-value': 7.167292494164667e-09}",,
+Tumor non-proliferating_tumorfront_pS6,,"{'Statistic': 952.0, 'p-value': 4.264415085932401e-05}",,
+Tumor proliferating_intratumor_pp38,,"{'Statistic': 1066.0, 'p-value': 0.0005538469978011505}",,
+Tumor proliferating_intratumor_pSTAT1,,"{'Statistic': 1012.0, 'p-value': 0.00017249152834166294}",,
+Tumor proliferating_intratumor_pSTAT3,,"{'Statistic': 1070.0, 'p-value': 0.000601755673114118}",,
+Tumor proliferating_intratumor_CD36,,"{'Statistic': 804.0, 'p-value': 8.513369243344606e-07}",,
+Tumor proliferating_intratumor_E-Cadherin,,"{'Statistic': 832.0, 'p-value': 1.8780625207085723e-06}",,
+Tumor proliferating_intratumor_VEGF,,"{'Statistic': 742.0, 'p-value': 1.356333678285269e-07}",,
+Tumor proliferating_intratumor_pCREB,,"{'Statistic': 1100.0, 'p-value': 0.0011043152851950978}",,
+Tumor proliferating_intratumor_pNFkB,,"{'Statistic': 1148.0, 'p-value': 0.0027606632816292113}",,
+Tumor proliferating_intratumor_GranzymeB,,"{'Statistic': 652.0, 'p-value': 7.649210884860539e-09}",,
+Tumor proliferating_intratumor_Ki67,,"{'Statistic': 1096.0, 'p-value': 0.0010200090750436713}",,
+Tumor proliferating_intratumor_CD44,,"{'Statistic': 1118.0, 'p-value': 0.0015694925003488691}",,
+Tumor proliferating_intratumor_pERK,,"{'Statistic': 886.0, 'p-value': 8.07619006250543e-06}",,
+Tumor proliferating_intratumor_pMAPKAPK2,,"{'Statistic': 886.0, 'p-value': 8.07619006250543e-06}",,
+Tumor proliferating_intratumor_pS6,,"{'Statistic': 1006.0, 'p-value': 0.00015071161198939654}",,
+Tumor proliferating_tumorfront_pp38,,"{'Statistic': 1214.0, 'p-value': 0.008720904575322168}",,
+Tumor proliferating_tumorfront_pSTAT1,,"{'Statistic': 978.0, 'p-value': 7.91767595888785e-05}",,
+Tumor proliferating_tumorfront_pSTAT3,,"{'Statistic': 1074.0, 'p-value': 0.000653725438026532}",,
+Tumor proliferating_tumorfront_CD36,,"{'Statistic': 1036.0, 'p-value': 0.000292973225331942}",,
+Tumor proliferating_tumorfront_E-Cadherin,,"{'Statistic': 714.0, 'p-value': 5.7006584242157576e-08}",,
+Tumor proliferating_tumorfront_VEGF,,"{'Statistic': 774.0, 'p-value': 3.555637640962756e-07}",,
+Tumor proliferating_tumorfront_pCREB,,"{'Statistic': 1096.0, 'p-value': 0.0010204811355819029}",,
+Tumor proliferating_tumorfront_pNFkB,,"{'Statistic': 1118.0, 'p-value': 0.001570168802286282}",,
+Tumor proliferating_tumorfront_GranzymeB,,"{'Statistic': 596.0, 'p-value': 1.1294032444473147e-09}",,
+Tumor proliferating_tumorfront_Ki67,,"{'Statistic': 890.0, 'p-value': 8.97351231492218e-06}",,
+Tumor proliferating_tumorfront_CD44,,"{'Statistic': 1062.0, 'p-value': 0.0005097728980903915}",,
+Tumor proliferating_tumorfront_pERK,,"{'Statistic': 674.0, 'p-value': 1.582631773478663e-08}",,
+Tumor proliferating_tumorfront_pMAPKAPK2,,"{'Statistic': 800.0, 'p-value': 7.596386120709117e-07}",,
+Tumor proliferating_tumorfront_pS6,,"{'Statistic': 948.0, 'p-value': 3.8694493001681484e-05}",,
+Vessel_stromal_pp38,,"{'Statistic': 1040.0, 'p-value': 0.00031948557858999253}",,
+Vessel_stromal_pSTAT1,,"{'Statistic': 950.0, 'p-value': 4.0626665411923926e-05}",,
+Vessel_stromal_pSTAT3,,"{'Statistic': 1038.0, 'p-value': 0.0003059775600061648}",,
+Vessel_stromal_CD36,,"{'Statistic': 826.0, 'p-value': 1.590180136711833e-06}",,
+Vessel_stromal_E-Cadherin,,"{'Statistic': 946.0, 'p-value': 3.686021872515394e-05}",,
+Vessel_stromal_VEGF,,"{'Statistic': 770.0, 'p-value': 3.1586070579219073e-07}",,
+Vessel_stromal_pCREB,,"{'Statistic': 886.0, 'p-value': 8.08420857956116e-06}",,
+Vessel_stromal_pNFkB,,"{'Statistic': 914.0, 'p-value': 1.6634195770604138e-05}",,
+Vessel_stromal_GranzymeB,,"{'Statistic': 1030.0, 'p-value': 0.0002571139845610822}",,
+Vessel_stromal_Ki67,,"{'Statistic': 710.0, 'p-value': 5.0272793463790475e-08}",,
+Vessel_stromal_CD44,,"{'Statistic': 976.0, 'p-value': 7.557347194163198e-05}",,
+Vessel_stromal_pERK,,"{'Statistic': 824.0, 'p-value': 1.503453158248486e-06}",,
+Vessel_stromal_pMAPKAPK2,,"{'Statistic': 744.0, 'p-value': 1.4437308318395017e-07}",,
+Vessel_stromal_pS6,,"{'Statistic': 1148.0, 'p-value': 0.002761953055343556}",,
+Vessel_tumorfront_pp38,,"{'Statistic': 982.0, 'p-value': 8.69609394717149e-05}",,
+Vessel_tumorfront_pSTAT1,,"{'Statistic': 1066.0, 'p-value': 0.0005541847742126447}",,
+Vessel_tumorfront_pSTAT3,,"{'Statistic': 1182.0, 'p-value': 0.0050737750661265}",,
+Vessel_tumorfront_CD36,,"{'Statistic': 882.0, 'p-value': 7.278322867279581e-06}",,
+Vessel_tumorfront_E-Cadherin,,"{'Statistic': 892.0, 'p-value': 9.454811418037963e-06}",,
+Vessel_tumorfront_VEGF,,"{'Statistic': 774.0, 'p-value': 3.5563956435034583e-07}",,
+Vessel_tumorfront_pCREB,,"{'Statistic': 860.0, 'p-value': 4.049846535389567e-06}",,
+Vessel_tumorfront_pNFkB,,"{'Statistic': 1062.0, 'p-value': 0.0005098253310993868}",,
+Vessel_tumorfront_GranzymeB,,"{'Statistic': 1004.0, 'p-value': 0.00014415173574544986}",,
+Vessel_tumorfront_Ki67,,"{'Statistic': 800.0, 'p-value': 7.597917052478743e-07}",,
+Vessel_tumorfront_CD44,,"{'Statistic': 946.0, 'p-value': 3.686021872515394e-05}",,
+Vessel_tumorfront_pERK,,"{'Statistic': 678.0, 'p-value': 1.8034506956846623e-08}",,
+Vessel_tumorfront_pMAPKAPK2,,"{'Statistic': 744.0, 'p-value': 1.4437308318395017e-07}",,
+Vessel_tumorfront_pS6,,"{'Statistic': 1064.0, 'p-value': 0.0005315740342066006}",,
+Fibroblasts_stromal_pp38,,"{'Statistic': 864.0, 'p-value': 4.510259743822898e-06}",,
+Fibroblasts_stromal_pSTAT1,,"{'Statistic': 916.0, 'p-value': 1.749813113135257e-05}",,
+Fibroblasts_stromal_pSTAT3,,"{'Statistic': 890.0, 'p-value': 8.974982209013928e-06}",,
+Fibroblasts_stromal_CD36,,"{'Statistic': 834.0, 'p-value': 1.987670710145442e-06}",,
+Fibroblasts_stromal_E-Cadherin,,"{'Statistic': 802.0, 'p-value': 8.047939589768644e-07}",,
+Fibroblasts_stromal_VEGF,,"{'Statistic': 746.0, 'p-value': 1.5344715320253035e-07}",,
+Fibroblasts_stromal_pCREB,,"{'Statistic': 648.0, 'p-value': 6.703949541270135e-09}",,
+Fibroblasts_stromal_pNFkB,,"{'Statistic': 798.0, 'p-value': 7.17218579605381e-07}",,
+Fibroblasts_stromal_GranzymeB,,"{'Statistic': 800.0, 'p-value': 7.597917052478743e-07}",,
+Fibroblasts_stromal_Ki67,,"{'Statistic': 680.0, 'p-value': 1.9245533447874768e-08}",,
+Fibroblasts_stromal_CD44,,"{'Statistic': 884.0, 'p-value': 7.671153644672983e-06}",,
+Fibroblasts_stromal_pERK,,"{'Statistic': 592.0, 'p-value': 9.817421144590888e-10}",,
+Fibroblasts_stromal_pMAPKAPK2,,"{'Statistic': 596.0, 'p-value': 1.1297442918473364e-09}",,
+Fibroblasts_stromal_pS6,,"{'Statistic': 886.0, 'p-value': 8.08420857956116e-06}",,
+Fibroblasts_tumorfront_pp38,,"{'Statistic': 948.0, 'p-value': 3.86999728046608e-05}",,
+Fibroblasts_tumorfront_pSTAT1,,"{'Statistic': 830.0, 'p-value': 1.7782830205922721e-06}",,
+Fibroblasts_tumorfront_pSTAT3,,"{'Statistic': 950.0, 'p-value': 4.0626665411923926e-05}",,
+Fibroblasts_tumorfront_CD36,,"{'Statistic': 944.0, 'p-value': 3.5103701384445565e-05}",,
+Fibroblasts_tumorfront_E-Cadherin,,"{'Statistic': 1008.0, 'p-value': 0.00015778028905223185}",,
+Fibroblasts_tumorfront_VEGF,,"{'Statistic': 744.0, 'p-value': 1.4437308318395017e-07}",,
+Fibroblasts_tumorfront_pCREB,,"{'Statistic': 708.0, 'p-value': 4.719597068992789e-08}",,
+Fibroblasts_tumorfront_pNFkB,,"{'Statistic': 826.0, 'p-value': 1.590180136711833e-06}",,
+Fibroblasts_tumorfront_GranzymeB,,"{'Statistic': 796.0, 'p-value': 6.769485329876803e-07}",,
+Fibroblasts_tumorfront_Ki67,,"{'Statistic': 858.0, 'p-value': 3.8368791868876644e-06}",,
+Fibroblasts_tumorfront_CD44,,"{'Statistic': 944.0, 'p-value': 3.5103701384445565e-05}",,
+Fibroblasts_tumorfront_pERK,,"{'Statistic': 566.0, 'p-value': 3.894045288807505e-10}",,
+Fibroblasts_tumorfront_pMAPKAPK2,,"{'Statistic': 654.0, 'p-value': 8.189248936183166e-09}",,
+Fibroblasts_tumorfront_pS6,,"{'Statistic': 888.0, 'p-value': 8.518474198404205e-06}",,
+CD4 T cells naive_stromal_pp38,,"{'Statistic': 1156.0, 'p-value': 0.0031953169322327807}",,
+CD4 T cells naive_stromal_pSTAT1,,"{'Statistic': 1094.0, 'p-value': 0.0009802188631193125}",,
+CD4 T cells naive_stromal_pSTAT3,,"{'Statistic': 862.0, 'p-value': 4.270376178788957e-06}",,
+CD4 T cells naive_stromal_CD36,,"{'Statistic': 824.0, 'p-value': 1.5020174967599435e-06}",,
+CD4 T cells naive_stromal_E-Cadherin,,"{'Statistic': 1012.0, 'p-value': 0.00017251206954184132}",,
+CD4 T cells naive_stromal_VEGF,,"{'Statistic': 894.0, 'p-value': 9.951015330772527e-06}",,
+CD4 T cells naive_stromal_pCREB,,"{'Statistic': 766.0, 'p-value': 2.800905673052092e-07}",,
+CD4 T cells naive_stromal_pNFkB,,"{'Statistic': 1004.0, 'p-value': 0.00014406399197354122}",,
+CD4 T cells naive_stromal_GranzymeB,,"{'Statistic': 914.0, 'p-value': 1.662135758303001e-05}",,
+CD4 T cells naive_stromal_Ki67,,"{'Statistic': 710.0, 'p-value': 5.016588703023641e-08}",,
+CD4 T cells naive_stromal_CD44,,"{'Statistic': 1004.0, 'p-value': 0.00014406399197354122}",,
+CD4 T cells naive_stromal_pERK,,"{'Statistic': 828.0, 'p-value': 1.6801141701315529e-06}",,
+CD4 T cells naive_stromal_pMAPKAPK2,,"{'Statistic': 716.0, 'p-value': 6.064242964902003e-08}",,
+CD4 T cells naive_stromal_pS6,,"{'Statistic': 852.0, 'p-value': 3.2575545580029558e-06}",,
+CD4 T cells naive_tumorfront_pp38,,"{'Statistic': 1186.0, 'p-value': 0.005430289748384831}",,
+CD4 T cells naive_tumorfront_pSTAT1,,"{'Statistic': 1274.0, 'p-value': 0.022221735208920013}",,
+CD4 T cells naive_tumorfront_pSTAT3,,"{'Statistic': 1132.0, 'p-value': 0.0020469260629211983}",,
+CD4 T cells naive_tumorfront_CD36,,"{'Statistic': 710.0, 'p-value': 5.001655085925465e-08}",,
+CD4 T cells naive_tumorfront_E-Cadherin,,"{'Statistic': 864.0, 'p-value': 4.493778216594016e-06}",,
+CD4 T cells naive_tumorfront_VEGF,,"{'Statistic': 954.0, 'p-value': 4.462556590062613e-05}",,
+CD4 T cells naive_tumorfront_pCREB,,"{'Statistic': 768.0, 'p-value': 2.962711149482151e-07}",,
+CD4 T cells naive_tumorfront_pNFkB,,"{'Statistic': 1064.0, 'p-value': 0.0005304337359526173}",,
+CD4 T cells naive_tumorfront_GranzymeB,,"{'Statistic': 740.0, 'p-value': 1.2714335618865312e-07}",,
+CD4 T cells naive_tumorfront_Ki67,,"{'Statistic': 764.0, 'p-value': 2.6293013680120503e-07}",,
+CD4 T cells naive_tumorfront_CD44,,"{'Statistic': 890.0, 'p-value': 8.944155365697273e-06}",,
+CD4 T cells naive_tumorfront_pERK,,"{'Statistic': 446.0, 'p-value': 4.1317395288449225e-12}",,
+CD4 T cells naive_tumorfront_pMAPKAPK2,,"{'Statistic': 804.0, 'p-value': 8.487888672678293e-07}",,
+CD4 T cells naive_tumorfront_pS6,,"{'Statistic': 978.0, 'p-value': 7.898535294503879e-05}",,
+CD4 T cells memory_stromal_pp38,,"{'Statistic': 1040.0, 'p-value': 0.00031948557858999253}",,
+CD4 T cells memory_stromal_pSTAT1,,"{'Statistic': 1070.0, 'p-value': 0.0006021030945433425}",,
+CD4 T cells memory_stromal_pSTAT3,,"{'Statistic': 1008.0, 'p-value': 0.00015778028905223185}",,
+CD4 T cells memory_stromal_CD36,,"{'Statistic': 742.0, 'p-value': 1.35819020019791e-07}",,
+CD4 T cells memory_stromal_E-Cadherin,,"{'Statistic': 772.0, 'p-value': 3.351809363611109e-07}",,
+CD4 T cells memory_stromal_VEGF,,"{'Statistic': 834.0, 'p-value': 1.987670710145442e-06}",,
+CD4 T cells memory_stromal_pCREB,,"{'Statistic': 856.0, 'p-value': 3.634670448839694e-06}",,
+CD4 T cells memory_stromal_pNFkB,,"{'Statistic': 974.0, 'p-value': 7.210193820575846e-05}",,
+CD4 T cells memory_stromal_GranzymeB,,"{'Statistic': 852.0, 'p-value': 3.260475269833148e-06}",,
+CD4 T cells memory_stromal_Ki67,,"{'Statistic': 684.0, 'p-value': 2.190755399093022e-08}",,
+CD4 T cells memory_stromal_CD44,,"{'Statistic': 918.0, 'p-value': 1.840471655600029e-05}",,
+CD4 T cells memory_stromal_pERK,,"{'Statistic': 710.0, 'p-value': 5.0272793463790475e-08}",,
+CD4 T cells memory_stromal_pMAPKAPK2,,"{'Statistic': 684.0, 'p-value': 2.190895649228018e-08}",,
+CD4 T cells memory_stromal_pS6,,"{'Statistic': 1024.0, 'p-value': 0.00022537690413449007}",,
+CD4 T cells memory_tumorfront_pp38,,"{'Statistic': 1012.0, 'p-value': 0.0001726096649814625}",,
+CD4 T cells memory_tumorfront_pSTAT1,,"{'Statistic': 1062.0, 'p-value': 0.0005098122224928947}",,
+CD4 T cells memory_tumorfront_pSTAT3,,"{'Statistic': 1010.0, 'p-value': 0.00016503586493787933}",,
+CD4 T cells memory_tumorfront_CD36,,"{'Statistic': 798.0, 'p-value': 7.171822900664033e-07}",,
+CD4 T cells memory_tumorfront_E-Cadherin,,"{'Statistic': 920.0, 'p-value': 1.9355201767579224e-05}",,
+CD4 T cells memory_tumorfront_VEGF,,"{'Statistic': 772.0, 'p-value': 3.3516299897335337e-07}",,
+CD4 T cells memory_tumorfront_pCREB,,"{'Statistic': 888.0, 'p-value': 8.518123706663952e-06}",,
+CD4 T cells memory_tumorfront_pNFkB,,"{'Statistic': 1006.0, 'p-value': 0.00015081659064683059}",,
+CD4 T cells memory_tumorfront_GranzymeB,,"{'Statistic': 918.0, 'p-value': 1.840401318073614e-05}",,
+CD4 T cells memory_tumorfront_Ki67,,"{'Statistic': 708.0, 'p-value': 4.719308909239573e-08}",,
+CD4 T cells memory_tumorfront_CD44,,"{'Statistic': 1006.0, 'p-value': 0.00015081659064683059}",,
+CD4 T cells memory_tumorfront_pERK,,"{'Statistic': 682.0, 'p-value': 2.0532725590907212e-08}",,
+CD4 T cells memory_tumorfront_pMAPKAPK2,,"{'Statistic': 856.0, 'p-value': 3.634509103056359e-06}",,
+CD4 T cells memory_tumorfront_pS6,,"{'Statistic': 1062.0, 'p-value': 0.0005098122224928947}",,
+CD4 T cells regulatory_stromal_pp38,,"{'Statistic': 1098.0, 'p-value': 0.001061632060285223}",,
+CD4 T cells regulatory_stromal_pSTAT1,,"{'Statistic': 1186.0, 'p-value': 0.005436198418300726}",,
+CD4 T cells regulatory_stromal_pSTAT3,,"{'Statistic': 1332.0, 'p-value': 0.049898686654103984}",,
+CD4 T cells regulatory_stromal_CD36,,"{'Statistic': 1088.0, 'p-value': 0.0008689814576684128}",,
+CD4 T cells regulatory_stromal_E-Cadherin,,"{'Statistic': 1102.0, 'p-value': 0.0011491038993556603}",,
+CD4 T cells regulatory_stromal_VEGF,,"{'Statistic': 954.0, 'p-value': 4.473460835690422e-05}",,
+CD4 T cells regulatory_stromal_pCREB,,"{'Statistic': 916.0, 'p-value': 1.7488723844929345e-05}",,
+CD4 T cells regulatory_stromal_pNFkB,,"{'Statistic': 940.0, 'p-value': 3.181019914886821e-05}",,
+CD4 T cells regulatory_stromal_GranzymeB,,"{'Statistic': 768.0, 'p-value': 2.9739301013882193e-07}",,
+CD4 T cells regulatory_stromal_Ki67,,"{'Statistic': 740.0, 'p-value': 1.2753702151301237e-07}",,
+CD4 T cells regulatory_stromal_CD44,,"{'Statistic': 974.0, 'p-value': 7.204476379762335e-05}",,
+CD4 T cells regulatory_stromal_pERK,,"{'Statistic': 798.0, 'p-value': 7.1671066737059e-07}",,
+CD4 T cells regulatory_stromal_pMAPKAPK2,,"{'Statistic': 656.0, 'p-value': 8.743752218232916e-09}",,
+CD4 T cells regulatory_stromal_pS6,,"{'Statistic': 830.0, 'p-value': 1.777110184963014e-06}",,
+CD4 T cells regulatory_tumorfront_pp38,,"{'Statistic': 1012.0, 'p-value': 0.00017197858677146197}",,
+CD4 T cells regulatory_tumorfront_pSTAT1,,"{'Statistic': 1184.0, 'p-value': 0.005241380494974646}",,
+CD4 T cells regulatory_tumorfront_pSTAT3,,"{'Statistic': 1210.0, 'p-value': 0.008142258504344328}",,
+CD4 T cells regulatory_tumorfront_CD36,,"{'Statistic': 796.0, 'p-value': 6.726939673475457e-07}",,
+CD4 T cells regulatory_tumorfront_E-Cadherin,,"{'Statistic': 980.0, 'p-value': 8.2661998380345e-05}",,
+CD4 T cells regulatory_tumorfront_VEGF,,"{'Statistic': 1072.0, 'p-value': 0.0006255679269715089}",,
+CD4 T cells regulatory_tumorfront_pCREB,,"{'Statistic': 1006.0, 'p-value': 0.00015025581564864158}",,
+CD4 T cells regulatory_tumorfront_pNFkB,,"{'Statistic': 858.0, 'p-value': 3.8159045552931605e-06}",,
+CD4 T cells regulatory_tumorfront_GranzymeB,,"{'Statistic': 860.0, 'p-value': 4.02674694125438e-06}",,
+CD4 T cells regulatory_tumorfront_Ki67,,"{'Statistic': 828.0, 'p-value': 1.6682972412074094e-06}",,
+CD4 T cells regulatory_tumorfront_CD44,,"{'Statistic': 1060.0, 'p-value': 0.00048734193835171677}",,
+CD4 T cells regulatory_tumorfront_pERK,,"{'Statistic': 740.0, 'p-value': 1.267362193299013e-07}",,
+CD4 T cells regulatory_tumorfront_pMAPKAPK2,,"{'Statistic': 772.0, 'p-value': 3.3296294328016247e-07}",,
+CD4 T cells regulatory_tumorfront_pS6,,"{'Statistic': 832.0, 'p-value': 1.8692682149136713e-06}",,
+B cells_stromal_pp38,,"{'Statistic': 1298.0, 'p-value': 0.03140651776762364}",,
+B cells_stromal_pSTAT1,,"{'Statistic': 1036.0, 'p-value': 0.0002923226012839606}",,
+B cells_stromal_pSTAT3,,"{'Statistic': 952.0, 'p-value': 4.251730805501533e-05}",,
+B cells_stromal_CD36,,"{'Statistic': 1060.0, 'p-value': 0.00048784687342102225}",,
+B cells_stromal_E-Cadherin,,"{'Statistic': 1064.0, 'p-value': 0.0005304337359526173}",,
+B cells_stromal_VEGF,,"{'Statistic': 950.0, 'p-value': 4.050661961037656e-05}",,
+B cells_stromal_pCREB,,"{'Statistic': 766.0, 'p-value': 2.7912024166810105e-07}",,
+B cells_stromal_pNFkB,,"{'Statistic': 1002.0, 'p-value': 0.0001374068738697747}",,
+B cells_stromal_GranzymeB,,"{'Statistic': 1062.0, 'p-value': 0.000508725031226861}",,
+B cells_stromal_Ki67,,"{'Statistic': 740.0, 'p-value': 1.271360759962742e-07}",,
+B cells_stromal_CD44,,"{'Statistic': 914.0, 'p-value': 1.658032856516349e-05}",,
+B cells_stromal_pERK,,"{'Statistic': 948.0, 'p-value': 3.858502414859893e-05}",,
+B cells_stromal_pMAPKAPK2,,"{'Statistic': 948.0, 'p-value': 3.858502414859893e-05}",,
+B cells_stromal_pS6,,"{'Statistic': 1094.0, 'p-value': 0.0009787589195189663}",,
+B cells_tumorfront_pp38,,"{'Statistic': 1122.0, 'p-value': 0.0016734295787984995}",,
+B cells_tumorfront_pSTAT1,,"{'Statistic': 1208.0, 'p-value': 0.007807666325052207}",,
+B cells_tumorfront_pSTAT3,,"{'Statistic': 1122.0, 'p-value': 0.0016734295787984995}",,
+B cells_tumorfront_CD36,,"{'Statistic': 1034.0, 'p-value': 0.0002760689360666596}",,
+B cells_tumorfront_E-Cadherin,,"{'Statistic': 1122.0, 'p-value': 0.0016750382829802237}",,
+B cells_tumorfront_VEGF,,"{'Statistic': 1030.0, 'p-value': 0.00025295914855955683}",,
+B cells_tumorfront_pCREB,,"{'Statistic': 1060.0, 'p-value': 0.00048167418113789805}",,
+B cells_tumorfront_pNFkB,,"{'Statistic': 1004.0, 'p-value': 0.0001416449632371757}",,
+B cells_tumorfront_GranzymeB,,"{'Statistic': 858.0, 'p-value': 3.7404127824143823e-06}",,
+B cells_tumorfront_Ki67,,"{'Statistic': 858.0, 'p-value': 3.7404127824143823e-06}",,
+B cells_tumorfront_CD44,,"{'Statistic': 912.0, 'p-value': 1.546144813984669e-05}",,
+B cells_tumorfront_pERK,,"{'Statistic': 916.0, 'p-value': 1.6967008913199347e-05}",,
+B cells_tumorfront_pMAPKAPK2,,"{'Statistic': 1124.0, 'p-value': 0.001740458449646968}",,
+B cells_tumorfront_pS6,,"{'Statistic': 1236.0, 'p-value': 0.012341857765030287}",,
+CD8 T cells_intratumor_pp38,,"{'Statistic': 894.0, 'p-value': 9.811365917370138e-06}",,
+CD8 T cells_intratumor_pSTAT1,,"{'Statistic': 858.0, 'p-value': 3.7749076905467058e-06}",,
+CD8 T cells_intratumor_pSTAT3,,"{'Statistic': 1064.0, 'p-value': 0.0005265911053997664}",,
+CD8 T cells_intratumor_CD36,,"{'Statistic': 924.0, 'p-value': 2.1105816360271943e-05}",,
+CD8 T cells_intratumor_E-Cadherin,,"{'Statistic': 858.0, 'p-value': 3.7749076905467058e-06}",,
+CD8 T cells_intratumor_VEGF,,"{'Statistic': 858.0, 'p-value': 3.7749076905467058e-06}",,
+CD8 T cells_intratumor_pCREB,,"{'Statistic': 892.0, 'p-value': 9.313889079050274e-06}",,
+CD8 T cells_intratumor_pNFkB,,"{'Statistic': 708.0, 'p-value': 4.614584512634117e-08}",,
+CD8 T cells_intratumor_GranzymeB,,"{'Statistic': 1120.0, 'p-value': 0.0016190681028188081}",,
+CD8 T cells_intratumor_Ki67,,"{'Statistic': 536.0, 'p-value': 1.2658245250957486e-10}",,
+CD8 T cells_intratumor_CD44,,"{'Statistic': 1004.0, 'p-value': 0.0001425436213402042}",,
+CD8 T cells_intratumor_pERK,,"{'Statistic': 858.0, 'p-value': 3.7749076905467058e-06}",,
+CD8 T cells_intratumor_pMAPKAPK2,,"{'Statistic': 980.0, 'p-value': 8.20074473214543e-05}",,
+CD8 T cells_intratumor_pS6,,"{'Statistic': 892.0, 'p-value': 9.313889079050274e-06}",,
+CD8 T cells_stromal_pp38,,"{'Statistic': 1006.0, 'p-value': 0.00015077550555806616}",,
+CD8 T cells_stromal_pSTAT1,,"{'Statistic': 1008.0, 'p-value': 0.000157732799385944}",,
+CD8 T cells_stromal_pSTAT3,,"{'Statistic': 864.0, 'p-value': 4.508295057596047e-06}",,
+CD8 T cells_stromal_CD36,,"{'Statistic': 970.0, 'p-value': 6.558442029777055e-05}",,
+CD8 T cells_stromal_E-Cadherin,,"{'Statistic': 920.0, 'p-value': 1.9348578527804864e-05}",,
+CD8 T cells_stromal_VEGF,,"{'Statistic': 862.0, 'p-value': 4.272246090007222e-06}",,
+CD8 T cells_stromal_pCREB,,"{'Statistic': 768.0, 'p-value': 2.9745722803678666e-07}",,
+CD8 T cells_stromal_pNFkB,,"{'Statistic': 974.0, 'p-value': 7.207811131467794e-05}",,
+CD8 T cells_stromal_GranzymeB,,"{'Statistic': 826.0, 'p-value': 1.589424156002995e-06}",,
+CD8 T cells_stromal_Ki67,,"{'Statistic': 796.0, 'p-value': 6.766045805852313e-07}",,
+CD8 T cells_stromal_CD44,,"{'Statistic': 974.0, 'p-value': 7.207811131467794e-05}",,
+CD8 T cells_stromal_pERK,,"{'Statistic': 770.0, 'p-value': 3.156909863705566e-07}",,
+CD8 T cells_stromal_pMAPKAPK2,,"{'Statistic': 738.0, 'p-value': 1.2008828321794052e-07}",,
+CD8 T cells_stromal_pS6,,"{'Statistic': 940.0, 'p-value': 3.181479856993131e-05}",,
+CD8 T cells_tumorfront_pp38,,"{'Statistic': 926.0, 'p-value': 2.249016268857523e-05}",,
+CD8 T cells_tumorfront_pSTAT1,,"{'Statistic': 1096.0, 'p-value': 0.0010203395020950982}",,
+CD8 T cells_tumorfront_pSTAT3,,"{'Statistic': 948.0, 'p-value': 3.8686274433513554e-05}",,
+CD8 T cells_tumorfront_CD36,,"{'Statistic': 890.0, 'p-value': 8.971307839475454e-06}",,
+CD8 T cells_tumorfront_E-Cadherin,,"{'Statistic': 738.0, 'p-value': 1.2008828321794052e-07}",,
+CD8 T cells_tumorfront_VEGF,,"{'Statistic': 744.0, 'p-value': 1.4429116683202762e-07}",,
+CD8 T cells_tumorfront_pCREB,,"{'Statistic': 1038.0, 'p-value': 0.0003058930608254851}",,
+CD8 T cells_tumorfront_pNFkB,,"{'Statistic': 1066.0, 'p-value': 0.0005540440165940776}",,
+CD8 T cells_tumorfront_GranzymeB,,"{'Statistic': 822.0, 'p-value': 1.4206016869608295e-06}",,
+CD8 T cells_tumorfront_Ki67,,"{'Statistic': 710.0, 'p-value': 5.0242228530244115e-08}",,
+CD8 T cells_tumorfront_CD44,,"{'Statistic': 950.0, 'p-value': 4.061235971346072e-05}",,
+CD8 T cells_tumorfront_pERK,,"{'Statistic': 886.0, 'p-value': 8.0808667455877e-06}",,
+CD8 T cells_tumorfront_pMAPKAPK2,,"{'Statistic': 832.0, 'p-value': 1.8792964722603312e-06}",,
+CD8 T cells_tumorfront_pS6,,"{'Statistic': 888.0, 'p-value': 8.514969807297347e-06}",,
+Myeloid M1 macrophages_stromal_pp38,,"{'Statistic': 1008.0, 'p-value': 0.00015778028905223185}",,
+Myeloid M1 macrophages_stromal_pSTAT1,,"{'Statistic': 1094.0, 'p-value': 0.000980675394668773}",,
+Myeloid M1 macrophages_stromal_pSTAT3,,"{'Statistic': 886.0, 'p-value': 8.08420857956116e-06}",,
+Myeloid M1 macrophages_stromal_CD36,,"{'Statistic': 822.0, 'p-value': 1.4212834758863329e-06}",,
+Myeloid M1 macrophages_stromal_E-Cadherin,,"{'Statistic': 770.0, 'p-value': 3.1586070579219073e-07}",,
+Myeloid M1 macrophages_stromal_VEGF,,"{'Statistic': 654.0, 'p-value': 8.189248936183166e-09}",,
+Myeloid M1 macrophages_stromal_pCREB,,"{'Statistic': 824.0, 'p-value': 1.503453158248486e-06}",,
+Myeloid M1 macrophages_stromal_pNFkB,,"{'Statistic': 912.0, 'p-value': 1.5811007657076282e-05}",,
+Myeloid M1 macrophages_stromal_GranzymeB,,"{'Statistic': 946.0, 'p-value': 3.686021872515394e-05}",,
+Myeloid M1 macrophages_stromal_Ki67,,"{'Statistic': 680.0, 'p-value': 1.9245533447874768e-08}",,
+Myeloid M1 macrophages_stromal_CD44,,"{'Statistic': 830.0, 'p-value': 1.7782830205922721e-06}",,
+Myeloid M1 macrophages_stromal_pERK,,"{'Statistic': 828.0, 'p-value': 1.681705644530192e-06}",,
+Myeloid M1 macrophages_stromal_pMAPKAPK2,,"{'Statistic': 744.0, 'p-value': 1.4437308318395017e-07}",,
+Myeloid M1 macrophages_stromal_pS6,,"{'Statistic': 1062.0, 'p-value': 0.0005098253310993868}",,
+Myeloid M1 macrophages_tumorfront_pp38,,"{'Statistic': 1008.0, 'p-value': 0.00015778028905223185}",,
+Myeloid M1 macrophages_tumorfront_pSTAT1,,"{'Statistic': 1034.0, 'p-value': 0.0002805505308666677}",,
+Myeloid M1 macrophages_tumorfront_pSTAT3,,"{'Statistic': 980.0, 'p-value': 8.299616114611313e-05}",,
+Myeloid M1 macrophages_tumorfront_CD36,,"{'Statistic': 1000.0, 'p-value': 0.00013163740866174004}",,
+Myeloid M1 macrophages_tumorfront_E-Cadherin,,"{'Statistic': 770.0, 'p-value': 3.1586070579219073e-07}",,
+Myeloid M1 macrophages_tumorfront_VEGF,,"{'Statistic': 654.0, 'p-value': 8.189248936183166e-09}",,
+Myeloid M1 macrophages_tumorfront_pCREB,,"{'Statistic': 798.0, 'p-value': 7.17218579605381e-07}",,
+Myeloid M1 macrophages_tumorfront_pNFkB,,"{'Statistic': 914.0, 'p-value': 1.6634195770604138e-05}",,
+Myeloid M1 macrophages_tumorfront_GranzymeB,,"{'Statistic': 742.0, 'p-value': 1.35819020019791e-07}",,
+Myeloid M1 macrophages_tumorfront_Ki67,,"{'Statistic': 622.0, 'p-value': 2.7807567421376284e-09}",,
+Myeloid M1 macrophages_tumorfront_CD44,,"{'Statistic': 884.0, 'p-value': 7.671153644672983e-06}",,
+Myeloid M1 macrophages_tumorfront_pERK,,"{'Statistic': 532.0, 'p-value': 1.126168159969419e-10}",,
+Myeloid M1 macrophages_tumorfront_pMAPKAPK2,,"{'Statistic': 654.0, 'p-value': 8.189248936183166e-09}",,
+Myeloid M1 macrophages_tumorfront_pS6,,"{'Statistic': 920.0, 'p-value': 1.9355937794476145e-05}",,
+Myeloid M2 macrophages_stromal_pp38,,"{'Statistic': 950.0, 'p-value': 4.0626665411923926e-05}",,
+Myeloid M2 macrophages_stromal_pSTAT1,,"{'Statistic': 946.0, 'p-value': 3.686021872515394e-05}",,
+Myeloid M2 macrophages_stromal_pSTAT3,,"{'Statistic': 892.0, 'p-value': 9.454811418037963e-06}",,
+Myeloid M2 macrophages_stromal_CD36,,"{'Statistic': 766.0, 'p-value': 2.8039438555280426e-07}",,
+Myeloid M2 macrophages_stromal_E-Cadherin,,"{'Statistic': 860.0, 'p-value': 4.049846535389567e-06}",,
+Myeloid M2 macrophages_stromal_VEGF,,"{'Statistic': 716.0, 'p-value': 6.071535580586536e-08}",,
+Myeloid M2 macrophages_stromal_pCREB,,"{'Statistic': 856.0, 'p-value': 3.634670448839694e-06}",,
+Myeloid M2 macrophages_stromal_pNFkB,,"{'Statistic': 916.0, 'p-value': 1.749813113135257e-05}",,
+Myeloid M2 macrophages_stromal_GranzymeB,,"{'Statistic': 890.0, 'p-value': 8.974982209013928e-06}",,
+Myeloid M2 macrophages_stromal_Ki67,,"{'Statistic': 830.0, 'p-value': 1.7782830205922721e-06}",,
+Myeloid M2 macrophages_stromal_CD44,,"{'Statistic': 916.0, 'p-value': 1.749813113135257e-05}",,
+Myeloid M2 macrophages_stromal_pERK,,"{'Statistic': 764.0, 'p-value': 2.641354674296378e-07}",,
+Myeloid M2 macrophages_stromal_pMAPKAPK2,,"{'Statistic': 772.0, 'p-value': 3.351809363611109e-07}",,
+Myeloid M2 macrophages_stromal_pS6,,"{'Statistic': 890.0, 'p-value': 8.974982209013928e-06}",,
+Myeloid M2 macrophages_tumorfront_pp38,,"{'Statistic': 950.0, 'p-value': 4.061235971346072e-05}",,
+Myeloid M2 macrophages_tumorfront_pSTAT1,,"{'Statistic': 950.0, 'p-value': 4.059805794402483e-05}",,
+Myeloid M2 macrophages_tumorfront_pSTAT3,,"{'Statistic': 950.0, 'p-value': 4.059805794402483e-05}",,
+Myeloid M2 macrophages_tumorfront_CD36,,"{'Statistic': 560.0, 'p-value': 3.1339553754292245e-10}",,
+Myeloid M2 macrophages_tumorfront_E-Cadherin,,"{'Statistic': 916.0, 'p-value': 1.749141122919744e-05}",,
+Myeloid M2 macrophages_tumorfront_VEGF,,"{'Statistic': 828.0, 'p-value': 1.6809097499883894e-06}",,
+Myeloid M2 macrophages_tumorfront_pCREB,,"{'Statistic': 916.0, 'p-value': 1.749141122919744e-05}",,
+Myeloid M2 macrophages_tumorfront_pNFkB,,"{'Statistic': 918.0, 'p-value': 1.8397683767220792e-05}",,
+Myeloid M2 macrophages_tumorfront_GranzymeB,,"{'Statistic': 742.0, 'p-value': 1.357416383100316e-07}",,
+Myeloid M2 macrophages_tumorfront_Ki67,,"{'Statistic': 738.0, 'p-value': 1.1977121117090297e-07}",,
+Myeloid M2 macrophages_tumorfront_CD44,,"{'Statistic': 854.0, 'p-value': 3.4411658755221956e-06}",,
+Myeloid M2 macrophages_tumorfront_pERK,,"{'Statistic': 592.0, 'p-value': 9.80996006982552e-10}",,
+Myeloid M2 macrophages_tumorfront_pMAPKAPK2,,"{'Statistic': 744.0, 'p-value': 1.4429116683202762e-07}",,
+Myeloid M2 macrophages_tumorfront_pS6,,"{'Statistic': 978.0, 'p-value': 7.91767595888785e-05}",,
+Myeloid Granulocytes_stromal_pp38,,"{'Statistic': 1012.0, 'p-value': 0.0001725582938653788}",,
+Myeloid Granulocytes_stromal_pSTAT1,,"{'Statistic': 1184.0, 'p-value': 0.0052520698944003245}",,
+Myeloid Granulocytes_stromal_pSTAT3,,"{'Statistic': 1036.0, 'p-value': 0.0002929162540016428}",,
+Myeloid Granulocytes_stromal_CD36,,"{'Statistic': 914.0, 'p-value': 1.6627133787547764e-05}",,
+Myeloid Granulocytes_stromal_E-Cadherin,,"{'Statistic': 836.0, 'p-value': 2.099979382411852e-06}",,
+Myeloid Granulocytes_stromal_VEGF,,"{'Statistic': 832.0, 'p-value': 1.8792083104484781e-06}",,
+Myeloid Granulocytes_stromal_pCREB,,"{'Statistic': 918.0, 'p-value': 1.8396980606139754e-05}",,
+Myeloid Granulocytes_stromal_pNFkB,,"{'Statistic': 976.0, 'p-value': 7.554614819253886e-05}",,
+Myeloid Granulocytes_stromal_GranzymeB,,"{'Statistic': 1182.0, 'p-value': 0.005072813052390635}",,
+Myeloid Granulocytes_stromal_Ki67,,"{'Statistic': 1000.0, 'p-value': 0.00013159284037215723}",,
+Myeloid Granulocytes_stromal_CD44,,"{'Statistic': 1118.0, 'p-value': 0.0015699320752519193}",,
+Myeloid Granulocytes_stromal_pERK,,"{'Statistic': 800.0, 'p-value': 7.593707617440327e-07}",,
+Myeloid Granulocytes_stromal_pMAPKAPK2,,"{'Statistic': 886.0, 'p-value': 8.080532623891361e-06}",,
+Myeloid Granulocytes_stromal_pS6,,"{'Statistic': 1034.0, 'p-value': 0.0002804643050786854}",,
+Myeloid Granulocytes_tumorfront_pp38,,"{'Statistic': 1152.0, 'p-value': 0.0029708596855446026}",,
+Myeloid Granulocytes_tumorfront_pSTAT1,,"{'Statistic': 1094.0, 'p-value': 0.0009787589195189663}",,
+Myeloid Granulocytes_tumorfront_pSTAT3,,"{'Statistic': 1242.0, 'p-value': 0.01367091839626018}",,
+Myeloid Granulocytes_tumorfront_CD36,,"{'Statistic': 828.0, 'p-value': 1.6809097499883894e-06}",,
+Myeloid Granulocytes_tumorfront_E-Cadherin,,"{'Statistic': 1062.0, 'p-value': 0.0005095632038384493}",,
+Myeloid Granulocytes_tumorfront_VEGF,,"{'Statistic': 1126.0, 'p-value': 0.0018298241279303914}",,
+Myeloid Granulocytes_tumorfront_pCREB,,"{'Statistic': 946.0, 'p-value': 3.684710364696769e-05}",,
+Myeloid Granulocytes_tumorfront_pNFkB,,"{'Statistic': 1008.0, 'p-value': 0.00015761412170756632}",,
+Myeloid Granulocytes_tumorfront_GranzymeB,,"{'Statistic': 1208.0, 'p-value': 0.007895673403423774}",,
+Myeloid Granulocytes_tumorfront_Ki67,,"{'Statistic': 914.0, 'p-value': 1.6611092733100432e-05}",,
+Myeloid Granulocytes_tumorfront_CD44,,"{'Statistic': 1116.0, 'p-value': 0.00151054185413151}",,
+Myeloid Granulocytes_tumorfront_pERK,,"{'Statistic': 916.0, 'p-value': 1.747462048170728e-05}",,
+Myeloid Granulocytes_tumorfront_pMAPKAPK2,,"{'Statistic': 1010.0, 'p-value': 0.00016494202371428773}",,
+Myeloid Granulocytes_tumorfront_pS6,,"{'Statistic': 1234.0, 'p-value': 0.012051600817643315}",,
+Myeloid DCs_stromal_pp38,,"{'Statistic': 1182.0, 'p-value': 0.0050734252311588545}",,
+Myeloid DCs_stromal_pSTAT1,,"{'Statistic': 866.0, 'p-value': 4.758666640474549e-06}",,
+Myeloid DCs_stromal_pSTAT3,,"{'Statistic': 1068.0, 'p-value': 0.0005776741752038305}",,
+Myeloid DCs_stromal_CD36,,"{'Statistic': 1126.0, 'p-value': 0.0018300544203921371}",,
+Myeloid DCs_stromal_E-Cadherin,,"{'Statistic': 1124.0, 'p-value': 0.0017617272182495452}",,
+Myeloid DCs_stromal_VEGF,,"{'Statistic': 1186.0, 'p-value': 0.0054379532379488305}",,
+Myeloid DCs_stromal_pCREB,,"{'Statistic': 1036.0, 'p-value': 0.0002929976440667714}",,
+Myeloid DCs_stromal_pNFkB,,"{'Statistic': 1034.0, 'p-value': 0.00028054269136566746}",,
+Myeloid DCs_stromal_GranzymeB,,"{'Statistic': 1010.0, 'p-value': 0.00016503586493787933}",,
+Myeloid DCs_stromal_Ki67,,"{'Statistic': 770.0, 'p-value': 3.1491128059805644e-07}",,
+Myeloid DCs_stromal_CD44,,"{'Statistic': 1180.0, 'p-value': 0.004899700684965371}",,
+Myeloid DCs_stromal_pERK,,"{'Statistic': 916.0, 'p-value': 1.749544292336079e-05}",,
+Myeloid DCs_stromal_pMAPKAPK2,,"{'Statistic': 858.0, 'p-value': 3.8367096575480115e-06}",,
+Myeloid DCs_stromal_pS6,,"{'Statistic': 1210.0, 'p-value': 0.008163520040123723}",,
+Myeloid DCs_tumorfront_pp38,,"{'Statistic': 1068.0, 'p-value': 0.0005771784532770801}",,
+Myeloid DCs_tumorfront_pSTAT1,,"{'Statistic': 1244.0, 'p-value': 0.014098243211733714}",,
+Myeloid DCs_tumorfront_pSTAT3,,"{'Statistic': 1272.0, 'p-value': 0.02157465030232387}",,
+Myeloid DCs_tumorfront_CD36,,"{'Statistic': 1060.0, 'p-value': 0.0004884659196268794}",,
+Myeloid DCs_tumorfront_E-Cadherin,,"{'Statistic': 1032.0, 'p-value': 0.0002681702228568012}",,
+Myeloid DCs_tumorfront_VEGF,,"{'Statistic': 1208.0, 'p-value': 0.00789258765561766}",,
+Myeloid DCs_tumorfront_pCREB,,"{'Statistic': 1038.0, 'p-value': 0.00030568188647004}",,
+Myeloid DCs_tumorfront_pNFkB,,"{'Statistic': 774.0, 'p-value': 3.549767795185865e-07}",,
+Myeloid DCs_tumorfront_GranzymeB,,"{'Statistic': 1004.0, 'p-value': 0.00014399821030248766}",,
+Myeloid DCs_tumorfront_Ki67,,"{'Statistic': 860.0, 'p-value': 4.034908213315784e-06}",,
+Myeloid DCs_tumorfront_CD44,,"{'Statistic': 1170.0, 'p-value': 0.004106869398322284}",,
+Myeloid DCs_tumorfront_pERK,,"{'Statistic': 768.0, 'p-value': 2.970560606885999e-07}",,
+Myeloid DCs_tumorfront_pMAPKAPK2,,"{'Statistic': 744.0, 'p-value': 1.440865512777051e-07}",,
+Myeloid DCs_tumorfront_pS6,,"{'Statistic': 1210.0, 'p-value': 0.008159214821607252}",,
+Myeloid Monocytes_stromal_pp38,,"{'Statistic': 976.0, 'p-value': 7.55709876522737e-05}",,
+Myeloid Monocytes_stromal_pSTAT1,,"{'Statistic': 1006.0, 'p-value': 0.00015081659064683059}",,
+Myeloid Monocytes_stromal_pSTAT3,,"{'Statistic': 1064.0, 'p-value': 0.0005315604491598111}",,
+Myeloid Monocytes_stromal_CD36,,"{'Statistic': 884.0, 'p-value': 7.670834956650314e-06}",,
+Myeloid Monocytes_stromal_E-Cadherin,,"{'Statistic': 742.0, 'p-value': 1.3581128013634746e-07}",,
+Myeloid Monocytes_stromal_VEGF,,"{'Statistic': 886.0, 'p-value': 8.083874345677023e-06}",,
+Myeloid Monocytes_stromal_pCREB,,"{'Statistic': 768.0, 'p-value': 2.976017616745975e-07}",,
+Myeloid Monocytes_stromal_pNFkB,,"{'Statistic': 854.0, 'p-value': 3.4425474544882553e-06}",,
+Myeloid Monocytes_stromal_GranzymeB,,"{'Statistic': 936.0, 'p-value': 2.883994438272699e-05}",,
+Myeloid Monocytes_stromal_Ki67,,"{'Statistic': 828.0, 'p-value': 1.6816260409124156e-06}",,
+Myeloid Monocytes_stromal_CD44,,"{'Statistic': 886.0, 'p-value': 8.083874345677023e-06}",,
+Myeloid Monocytes_stromal_pERK,,"{'Statistic': 918.0, 'p-value': 1.8401903183463995e-05}",,
+Myeloid Monocytes_stromal_pMAPKAPK2,,"{'Statistic': 770.0, 'p-value': 3.1584373034136723e-07}",,
+Myeloid Monocytes_stromal_pS6,,"{'Statistic': 914.0, 'p-value': 1.6633553673151745e-05}",,
+Myeloid Monocytes_tumorfront_pp38,,"{'Statistic': 1044.0, 'p-value': 0.0003481831806065916}",,
+Myeloid Monocytes_tumorfront_pSTAT1,,"{'Statistic': 804.0, 'p-value': 8.521877097368042e-07}",,
+Myeloid Monocytes_tumorfront_pSTAT3,,"{'Statistic': 978.0, 'p-value': 7.918193765047347e-05}",,
+Myeloid Monocytes_tumorfront_CD36,,"{'Statistic': 712.0, 'p-value': 5.354040808907267e-08}",,
+Myeloid Monocytes_tumorfront_E-Cadherin,,"{'Statistic': 682.0, 'p-value': 2.0532725590907212e-08}",,
+Myeloid Monocytes_tumorfront_VEGF,,"{'Statistic': 942.0, 'p-value': 3.3424462292655116e-05}",,
+Myeloid Monocytes_tumorfront_pCREB,,"{'Statistic': 802.0, 'p-value': 8.047535936199253e-07}",,
+Myeloid Monocytes_tumorfront_pNFkB,,"{'Statistic': 946.0, 'p-value': 3.685890705306188e-05}",,
+Myeloid Monocytes_tumorfront_GranzymeB,,"{'Statistic': 770.0, 'p-value': 3.1584373034136723e-07}",,
+Myeloid Monocytes_tumorfront_Ki67,,"{'Statistic': 850.0, 'p-value': 3.0791908477534752e-06}",,
+Myeloid Monocytes_tumorfront_CD44,,"{'Statistic': 1034.0, 'p-value': 0.00028054269136566746}",,
+Myeloid Monocytes_tumorfront_pERK,,"{'Statistic': 738.0, 'p-value': 1.200813826436579e-07}",,
+Myeloid Monocytes_tumorfront_pMAPKAPK2,,"{'Statistic': 860.0, 'p-value': 4.049668430893962e-06}",,
+Myeloid Monocytes_tumorfront_pS6,,"{'Statistic': 1086.0, 'p-value': 0.0008350689519732437}",,
+Tumor non-proliferating_intratumor_area,,,"{'Statistic': 772.0, 'p-value': 3.351809363611109e-07}",
+Tumor non-proliferating_stromal_area,,,"{'Statistic': 1182.0, 'p-value': 0.005071851140562926}",
+Tumor non-proliferating_tumorfront_area,,,"{'Statistic': 942.0, 'p-value': 3.342686599191144e-05}",
+Tumor proliferating_intratumor_area,,,"{'Statistic': 1040.0, 'p-value': 0.00031927509549963597}",
+Tumor proliferating_tumorfront_area,,,"{'Statistic': 774.0, 'p-value': 3.555637640962756e-07}",
+Vessel_stromal_area,,,"{'Statistic': 1268.0, 'p-value': 0.02034996711247365}",
+Vessel_tumorfront_area,,,"{'Statistic': 1066.0, 'p-value': 0.0005541847742126447}",
+Fibroblasts_stromal_area,,,"{'Statistic': 1094.0, 'p-value': 0.000980675394668773}",
+Fibroblasts_tumorfront_area,,,"{'Statistic': 1036.0, 'p-value': 0.0002930057839717835}",
+CD4 T cells naive_stromal_area,,,"{'Statistic': 1130.0, 'p-value': 0.0019736624223121477}",
+CD4 T cells naive_tumorfront_area,,,"{'Statistic': 1132.0, 'p-value': 0.0020469260629211983}",
+CD4 T cells memory_stromal_area,,,"{'Statistic': 1124.0, 'p-value': 0.0017617644156780181}",
+CD4 T cells memory_tumorfront_area,,,"{'Statistic': 926.0, 'p-value': 2.249690310023174e-05}",
+CD4 T cells regulatory_stromal_area,,,"{'Statistic': 1186.0, 'p-value': 0.005436752538079595}",
+CD4 T cells regulatory_tumorfront_area,,,"{'Statistic': 1158.0, 'p-value': 0.0033067738687758037}",
+B cells_stromal_area,,,"{'Statistic': 1334.0, 'p-value': 0.051189777024645014}",
+B cells_tumorfront_area,,,"{'Statistic': 1042.0, 'p-value': 0.0003283444881419874}",
+CD8 T cells_intratumor_area,,,"{'Statistic': 1158.0, 'p-value': 0.0032916178834561964}",
+CD8 T cells_stromal_area,,,"{'Statistic': 1124.0, 'p-value': 0.001761392463920981}",
+CD8 T cells_tumorfront_area,,,"{'Statistic': 1010.0, 'p-value': 0.0001649914088954827}",
+Myeloid M1 macrophages_stromal_area,,,"{'Statistic': 1180.0, 'p-value': 0.0048999559402408644}",
+Myeloid M1 macrophages_tumorfront_area,,,"{'Statistic': 1154.0, 'p-value': 0.0030823997686274967}",
+Myeloid M2 macrophages_stromal_area,,,"{'Statistic': 948.0, 'p-value': 3.86999728046608e-05}",
+Myeloid M2 macrophages_tumorfront_area,,,"{'Statistic': 1152.0, 'p-value': 0.002971429956274734}",
+Myeloid Granulocytes_stromal_area,,,"{'Statistic': 952.0, 'p-value': 4.262771932795692e-05}",
+Myeloid Granulocytes_tumorfront_area,,,"{'Statistic': 1272.0, 'p-value': 0.021593613099601415}",
+Myeloid DCs_stromal_area,,,"{'Statistic': 1152.0, 'p-value': 0.0029718862203210804}",
+Myeloid DCs_tumorfront_area,,,"{'Statistic': 1214.0, 'p-value': 0.0087167755679027}",
+Myeloid Monocytes_stromal_area,,,"{'Statistic': 1090.0, 'p-value': 0.000905151738663081}",
+Myeloid Monocytes_tumorfront_area,,,"{'Statistic': 1004.0, 'p-value': 0.00014413857163823982}",
+Tumor non-proliferating_intratumor_eccentricity,,,"{'Statistic': 1126.0, 'p-value': 0.001830207958925286}",
+Tumor non-proliferating_stromal_eccentricity,,,"{'Statistic': 1406.0, 'p-value': 0.12218163491856397}",
+Tumor non-proliferating_tumorfront_eccentricity,,,"{'Statistic': 948.0, 'p-value': 3.86999728046608e-05}",
+Tumor proliferating_intratumor_eccentricity,,,"{'Statistic': 1404.0, 'p-value': 0.11949084694341733}",
+Tumor proliferating_tumorfront_eccentricity,,,"{'Statistic': 1350.0, 'p-value': 0.06291276191312199}",
+Vessel_stromal_eccentricity,,,"{'Statistic': 832.0, 'p-value': 1.8801782800931192e-06}",
+Vessel_tumorfront_eccentricity,,,"{'Statistic': 1030.0, 'p-value': 0.0002571139845610822}",
+Fibroblasts_stromal_eccentricity,,,"{'Statistic': 920.0, 'p-value': 1.9355937794476145e-05}",
+Fibroblasts_tumorfront_eccentricity,,,"{'Statistic': 1040.0, 'p-value': 0.00031948557858999253}",
+CD4 T cells naive_stromal_eccentricity,,,"{'Statistic': 1254.0, 'p-value': 0.01646370376349713}",
+CD4 T cells naive_tumorfront_eccentricity,,,"{'Statistic': 1194.0, 'p-value': 0.006229593102788277}",
+CD4 T cells memory_stromal_eccentricity,,,"{'Statistic': 1286.0, 'p-value': 0.026497082148148807}",
+CD4 T cells memory_tumorfront_eccentricity,,,"{'Statistic': 1194.0, 'p-value': 0.0062381263493635234}",
+CD4 T cells regulatory_stromal_eccentricity,,,"{'Statistic': 1406.0, 'p-value': 0.12217867032793231}",
+CD4 T cells regulatory_tumorfront_eccentricity,,,"{'Statistic': 1338.0, 'p-value': 0.0539061531458282}",
+B cells_stromal_eccentricity,,,"{'Statistic': 1406.0, 'p-value': 0.12213419974385671}",
+B cells_tumorfront_eccentricity,,,"{'Statistic': 1330.0, 'p-value': 0.04835317717484483}",
+CD8 T cells_intratumor_eccentricity,,,"{'Statistic': 1226.0, 'p-value': 0.010547912001432376}",
+CD8 T cells_stromal_eccentricity,,,"{'Statistic': 1258.0, 'p-value': 0.017502340525759472}",
+CD8 T cells_tumorfront_eccentricity,,,"{'Statistic': 1350.0, 'p-value': 0.06290962804942372}",
+Myeloid M1 macrophages_stromal_eccentricity,,,"{'Statistic': 1042.0, 'p-value': 0.0003335502367308132}",
+Myeloid M1 macrophages_tumorfront_eccentricity,,,"{'Statistic': 1046.0, 'p-value': 0.0003634345676973684}",
+Myeloid M2 macrophages_stromal_eccentricity,,,"{'Statistic': 1198.0, 'p-value': 0.0066768025214019614}",
+Myeloid M2 macrophages_tumorfront_eccentricity,,,"{'Statistic': 1130.0, 'p-value': 0.0019740709385102587}",
+Myeloid Granulocytes_stromal_eccentricity,,,"{'Statistic': 1378.0, 'p-value': 0.08861610582415116}",
+Myeloid Granulocytes_tumorfront_eccentricity,,,"{'Statistic': 1462.0, 'p-value': 0.21814678320332015}",
+Myeloid DCs_stromal_eccentricity,,,"{'Statistic': 1432.0, 'p-value': 0.16158630578335198}",
+Myeloid DCs_tumorfront_eccentricity,,,"{'Statistic': 1218.0, 'p-value': 0.009308141449226988}",
+Myeloid Monocytes_stromal_eccentricity,,,"{'Statistic': 1048.0, 'p-value': 0.0003792884335902634}",
+Myeloid Monocytes_tumorfront_eccentricity,,,"{'Statistic': 1344.0, 'p-value': 0.05829699768367814}",
+Tumor non-proliferating_tumorfront_celldistance,,,"{'Statistic': 1272.0, 'p-value': 0.0215964710501489}",
+Tumor proliferating_tumorfront_celldistance,,,"{'Statistic': 1104.0, 'p-value': 0.001195564505110303}",
+Vessel_tumorfront_celldistance,,,"{'Statistic': 970.0, 'p-value': 6.56063342943504e-05}",
+Fibroblasts_tumorfront_celldistance,,,"{'Statistic': 1036.0, 'p-value': 0.0002930057839717835}",
+CD4 T cells naive_tumorfront_celldistance,,,"{'Statistic': 966.0, 'p-value': 5.949821998049366e-05}",
+CD4 T cells memory_tumorfront_celldistance,,,"{'Statistic': 1214.0, 'p-value': 0.008721304208980376}",
+CD4 T cells regulatory_tumorfront_celldistance,,,"{'Statistic': 1264.0, 'p-value': 0.019137102337688474}",
+B cells_tumorfront_celldistance,,,"{'Statistic': 1238.0, 'p-value': 0.01273902962635816}",
+CD8 T cells_tumorfront_celldistance,,,"{'Statistic': 1066.0, 'p-value': 0.0005540440165940776}",
+Myeloid M1 macrophages_tumorfront_celldistance,,,"{'Statistic': 1182.0, 'p-value': 0.0050737750661265}",
+Myeloid M2 macrophages_tumorfront_celldistance,,,"{'Statistic': 1088.0, 'p-value': 0.0008692701934711112}",
+Myeloid Granulocytes_tumorfront_celldistance,,,"{'Statistic': 1210.0, 'p-value': 0.008162380310449179}",
+Myeloid DCs_tumorfront_celldistance,,,"{'Statistic': 1126.0, 'p-value': 0.0018288647741136971}",
+Myeloid Monocytes_tumorfront_celldistance,,,"{'Statistic': 1268.0, 'p-value': 0.020349718000999495}",
+Tumor non-proliferating_intratumor_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1256.0, 'p-value': 0.016979339294596277}"
+Tumor non-proliferating_intratumor_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 530.0, 'p-value': 1.0456610938077325e-10}"
+Tumor non-proliferating_intratumor_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 970.0, 'p-value': 6.497963464894977e-05}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 828.0, 'p-value': 1.571492771560142e-06}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 972.0, 'p-value': 6.819844247181143e-05}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 822.0, 'p-value': 1.381657024258259e-06}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 590.0, 'p-value': 7.558631417000801e-10}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 818.0, 'p-value': 1.1872248449014029e-06}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 410.0, 'p-value': 6.195916801034144e-13}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 410.0, 'p-value': 6.382597292100205e-13}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 908.0, 'p-value': 1.3379586969631806e-05}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 566.0, 'p-value': 3.648657756102611e-10}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 938.0, 'p-value': 2.8822152931299693e-05}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 498.0, 'p-value': 2.4669451141951005e-11}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 382.0, 'p-value': 1.9803524083216417e-13}"
+Tumor non-proliferating_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 526.0, 'p-value': 7.16596052558222e-11}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1332.0, 'p-value': 0.04990504346151169}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 826.0, 'p-value': 1.5901045251150112e-06}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 796.0, 'p-value': 6.769485329876803e-07}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 590.0, 'p-value': 9.147310097585335e-10}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 768.0, 'p-value': 2.9305391986025097e-07}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 920.0, 'p-value': 1.935299382053378e-05}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 796.0, 'p-value': 6.559013205389934e-07}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 528.0, 'p-value': 8.333763839444403e-11}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 970.0, 'p-value': 6.548368833236448e-05}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1114.0, 'p-value': 0.0014534815063880287}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 678.0, 'p-value': 1.799366575980009e-08}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 442.0, 'p-value': 3.454048267815197e-12}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 564.0, 'p-value': 3.5889674506390177e-10}"
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 790.0, 'p-value': 5.680859568165874e-07}"
+Tumor proliferating_intratumor_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1364.0, 'p-value': 0.07484457726003232}"
+Tumor proliferating_intratumor_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 652.0, 'p-value': 7.5456745992219e-09}"
+Tumor proliferating_intratumor_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 906.0, 'p-value': 1.2918466320593534e-05}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1300.0, 'p-value': 0.03232707997228747}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 884.0, 'p-value': 7.618398610408898e-06}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 594.0, 'p-value': 1.0459734055395453e-09}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 558.0, 'p-value': 2.724529181872161e-10}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 732.0, 'p-value': 8.878310760206015e-08}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 910.0, 'p-value': 1.4486338401503894e-05}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 528.0, 'p-value': 7.524812236348504e-11}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 296.0, 'p-value': 4.486019993028486e-15}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 850.0, 'p-value': 3.0405644814270134e-06}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 908.0, 'p-value': 1.3436502864808184e-05}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 704.0, 'p-value': 3.6669392860338096e-08}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 500.0, 'p-value': 2.6633068368228345e-11}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 440.0, 'p-value': 2.6076835487396535e-12}"
+Tumor proliferating_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 646.0, 'p-value': 5.6134711263257145e-09}"
+Vessel_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 556.0, 'p-value': 2.66902578825609e-10}"
+Vessel_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 978.0, 'p-value': 7.92026524817304e-05}"
+Vessel_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 972.0, 'p-value': 6.878162135163629e-05}"
+Vessel_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 854.0, 'p-value': 3.437330557365467e-06}"
+Vessel_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1000.0, 'p-value': 0.00013162930449565322}"
+Vessel_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 914.0, 'p-value': 1.659890980201749e-05}"
+Vessel_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 766.0, 'p-value': 2.790596919735937e-07}"
+Vessel_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1204.0, 'p-value': 0.007386262335550362}"
+Vessel_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 976.0, 'p-value': 7.557347194163198e-05}"
+Vessel_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 858.0, 'p-value': 3.8368791868876644e-06}"
+Vessel_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 500.0, 'p-value': 3.38650036497064e-11}"
+Vessel_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 594.0, 'p-value': 1.0484340219307194e-09}"
+Vessel_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 854.0, 'p-value': 3.441933362877602e-06}"
+Vessel_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1032.0, 'p-value': 0.00026859273882526736}"
+Vessel_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 560.0, 'p-value': 3.115096316521027e-10}"
+Vessel_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 974.0, 'p-value': 7.210193820575846e-05}"
+Vessel_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 824.0, 'p-value': 1.5031659341228108e-06}"
+Vessel_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 734.0, 'p-value': 1.0335444511492589e-07}"
+Vessel_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1114.0, 'p-value': 0.0014533229091987859}"
+Vessel_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 1084.0, 'p-value': 0.0007954142353405821}"
+Vessel_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 560.0, 'p-value': 2.7319430550934423e-10}"
+Vessel_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1060.0, 'p-value': 0.0004886555338323342}"
+Vessel_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1142.0, 'p-value': 0.002472117454458147}"
+Vessel_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 708.0, 'p-value': 4.718444522017443e-08}"
+Vessel_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 706.0, 'p-value': 4.392055221226479e-08}"
+Vessel_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 712.0, 'p-value': 5.294657617516319e-08}"
+Vessel_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 848.0, 'p-value': 2.915462339611973e-06}"
+Fibroblasts_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 470.0, 'p-value': 1.0135334901726942e-11}"
+Fibroblasts_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 736.0, 'p-value': 1.1299660955555842e-07}"
+Fibroblasts_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 1090.0, 'p-value': 0.0009051730799094373}"
+Fibroblasts_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 912.0, 'p-value': 1.5759551012090928e-05}"
+Fibroblasts_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 972.0, 'p-value': 6.877247986673214e-05}"
+Fibroblasts_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 824.0, 'p-value': 1.493427598333192e-06}"
+Fibroblasts_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 882.0, 'p-value': 7.25253455442396e-06}"
+Fibroblasts_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1088.0, 'p-value': 0.0008693939572466324}"
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 856.0, 'p-value': 3.634509103056359e-06}"
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 594.0, 'p-value': 1.0528124055819857e-09}"
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 592.0, 'p-value': 9.801758761509732e-10}"
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 678.0, 'p-value': 1.7925003214101022e-08}"
+Fibroblasts_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 802.0, 'p-value': 8.033821883978524e-07}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1114.0, 'p-value': 0.0014534497860517832}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 592.0, 'p-value': 9.382237442123676e-10}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 944.0, 'p-value': 3.5102445731258256e-05}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 830.0, 'p-value': 1.7775289806940114e-06}"
+Fibroblasts_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 940.0, 'p-value': 3.118612997713363e-05}"
+Fibroblasts_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 942.0, 'p-value': 3.3390824735777275e-05}"
+Fibroblasts_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 826.0, 'p-value': 1.5149650535495699e-06}"
+Fibroblasts_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 648.0, 'p-value': 6.148396464883624e-09}"
+Fibroblasts_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1056.0, 'p-value': 0.0004487716938848578}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1144.0, 'p-value': 0.0025627163499210653}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 538.0, 'p-value': 1.3709375075363882e-10}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 526.0, 'p-value': 8.504750512760857e-11}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 646.0, 'p-value': 5.947581996826054e-09}"
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 1056.0, 'p-value': 0.0004490185986853321}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 382.0, 'p-value': 2.1937146936391937e-13}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 684.0, 'p-value': 2.185991580922536e-08}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 800.0, 'p-value': 7.576507719984742e-07}"
+CD4 T cells naive_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 854.0, 'p-value': 3.4090587256403702e-06}"
+CD4 T cells naive_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1206.0, 'p-value': 0.007631145284971772}"
+CD4 T cells naive_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 1000.0, 'p-value': 0.00013052256144022062}"
+CD4 T cells naive_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 1026.0, 'p-value': 0.0002335688435896415}"
+CD4 T cells naive_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1298.0, 'p-value': 0.03139440452772145}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1090.0, 'p-value': 0.0009039784925589575}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 566.0, 'p-value': 3.8754853011504825e-10}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 592.0, 'p-value': 9.564392074424447e-10}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 740.0, 'p-value': 1.2526977048511186e-07}"
+CD4 T cells naive_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 714.0, 'p-value': 5.6455198422998535e-08}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 826.0, 'p-value': 1.5682288790429561e-06}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 472.0, 'p-value': 9.9011637065766e-12}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 828.0, 'p-value': 1.644949767619733e-06}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 854.0, 'p-value': 3.29580980753207e-06}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 884.0, 'p-value': 7.304045127116368e-06}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1258.0, 'p-value': 0.017418336036364536}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 530.0, 'p-value': 8.14883788551042e-11}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 678.0, 'p-value': 1.5687158751060717e-08}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1062.0, 'p-value': 0.0005025084389502123}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1116.0, 'p-value': 0.0015024007925594227}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 656.0, 'p-value': 8.412108298216818e-09}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 438.0, 'p-value': 2.283489283674552e-12}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 652.0, 'p-value': 6.89764495621096e-09}"
+CD4 T cells naive_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 822.0, 'p-value': 1.3251126207171672e-06}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 384.0, 'p-value': 2.970462034528039e-13}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 770.0, 'p-value': 3.1584373034136723e-07}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 742.0, 'p-value': 1.3578806276949254e-07}"
+CD4 T cells memory_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 1028.0, 'p-value': 0.0002457048279230661}"
+CD4 T cells memory_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1088.0, 'p-value': 0.0008682392920400445}"
+CD4 T cells memory_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 884.0, 'p-value': 7.621885276102689e-06}"
+CD4 T cells memory_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 882.0, 'p-value': 7.188840114529096e-06}"
+CD4 T cells memory_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1294.0, 'p-value': 0.029689230417802172}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1000.0, 'p-value': 0.00013147944481094756}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 594.0, 'p-value': 1.047639708310729e-09}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 502.0, 'p-value': 3.625241401377451e-11}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 798.0, 'p-value': 7.062578418580547e-07}"
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 736.0, 'p-value': 1.126060283240398e-07}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 972.0, 'p-value': 6.875419969259842e-05}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 796.0, 'p-value': 6.3329450613977e-07}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 886.0, 'p-value': 8.081200878501614e-06}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 710.0, 'p-value': 5.0132328805688674e-08}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 1030.0, 'p-value': 0.00025495454939484423}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1088.0, 'p-value': 0.0008642472236655102}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 1122.0, 'p-value': 0.0016774710924539538}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 734.0, 'p-value': 9.830789579748376e-08}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1148.0, 'p-value': 0.0027536297176732985}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1034.0, 'p-value': 0.0002791654080298615}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 828.0, 'p-value': 1.6582013103521694e-06}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 444.0, 'p-value': 3.424451968253876e-12}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 796.0, 'p-value': 6.559013205389934e-07}"
+CD4 T cells memory_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 940.0, 'p-value': 3.1688504666891175e-05}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 296.0, 'p-value': 4.28019277275918e-15}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 974.0, 'p-value': 7.196382615993322e-05}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 622.0, 'p-value': 2.752656589350463e-09}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 978.0, 'p-value': 7.83182101626634e-05}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1124.0, 'p-value': 0.0017582328949841755}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 992.0, 'p-value': 0.0001034686841486862}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 736.0, 'p-value': 1.0719065758214569e-07}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1152.0, 'p-value': 0.002960549178698478}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1086.0, 'p-value': 0.000830273147747681}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 710.0, 'p-value': 4.833125822919178e-08}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 528.0, 'p-value': 7.91065492175454e-11}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 792.0, 'p-value': 5.39792911988308e-07}"
+CD4 T cells regulatory_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 762.0, 'p-value': 2.3747043839634167e-07}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 828.0, 'p-value': 1.6531725203366096e-06}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 648.0, 'p-value': 5.537815713345514e-09}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 824.0, 'p-value': 1.482109342926514e-06}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 562.0, 'p-value': 2.951407899587163e-10}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 560.0, 'p-value': 2.633996838810373e-10}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1202.0, 'p-value': 0.007058612954122295}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 640.0, 'p-value': 3.842392236597557e-09}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 552.0, 'p-value': 1.5979860305853599e-10}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1054.0, 'p-value': 0.0004191159737157909}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1060.0, 'p-value': 0.00047584194701054584}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 852.0, 'p-value': 3.01597560774915e-06}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 618.0, 'p-value': 1.987740667088763e-09}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 704.0, 'p-value': 3.6386015927329256e-08}"
+CD4 T cells regulatory_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 762.0, 'p-value': 2.2158610613492155e-07}"
+B cells_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 348.0, 'p-value': 4.6754584017676944e-14}"
+B cells_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 804.0, 'p-value': 8.451901382799153e-07}"
+B cells_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 858.0, 'p-value': 3.821139335393158e-06}"
+B cells_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 916.0, 'p-value': 1.7306086853836674e-05}"
+B cells_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 826.0, 'p-value': 1.5728684451807467e-06}"
+B cells_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 770.0, 'p-value': 3.005041017805839e-07}"
+B cells_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 1060.0, 'p-value': 0.00048406880732181545}"
+B cells_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1296.0, 'p-value': 0.03052015154402235}"
+B cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1178.0, 'p-value': 0.004721366467999688}"
+B cells_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 710.0, 'p-value': 4.984635544022068e-08}"
+B cells_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 616.0, 'p-value': 2.119037542040033e-09}"
+B cells_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 472.0, 'p-value': 9.776518902498489e-12}"
+B cells_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 650.0, 'p-value': 6.8245996826544706e-09}"
+B cells_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 682.0, 'p-value': 1.868245796854992e-08}"
+B cells_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 472.0, 'p-value': 8.036548236312972e-12}"
+B cells_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 770.0, 'p-value': 2.8934688067059243e-07}"
+B cells_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 730.0, 'p-value': 8.34113984433501e-08}"
+B cells_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 796.0, 'p-value': 6.165135351290631e-07}"
+B cells_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 938.0, 'p-value': 2.832919250776566e-05}"
+B cells_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 352.0, 'p-value': 4.795720310851345e-14}"
+B cells_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 736.0, 'p-value': 9.926566068106075e-08}"
+B cells_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1168.0, 'p-value': 0.003880633749545509}"
+B cells_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 650.0, 'p-value': 6.14987457036695e-09}"
+B cells_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 616.0, 'p-value': 1.800753154991856e-09}"
+B cells_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 324.0, 'p-value': 1.4335513221594135e-14}"
+B cells_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 528.0, 'p-value': 7.140524404221639e-11}"
+B cells_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 440.0, 'p-value': 2.395730047004702e-12}"
+CD8 T cells_intratumor_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1220.0, 'p-value': 0.00956787395184714}"
+CD8 T cells_intratumor_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 472.0, 'p-value': 1.048521715690333e-11}"
+CD8 T cells_intratumor_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1170.0, 'p-value': 0.0040670385577174645}"
+CD8 T cells_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 238.0, 'p-value': 4.3314365671271096e-16}"
+CD8 T cells_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 592.0, 'p-value': 9.802504080811978e-10}"
+CD8 T cells_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 592.0, 'p-value': 9.80996006982552e-10}"
+CD8 T cells_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 912.0, 'p-value': 1.5737539211278267e-05}"
+CD8 T cells_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1116.0, 'p-value': 0.0015090030089471818}"
+CD8 T cells_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 940.0, 'p-value': 3.159690216808187e-05}"
+CD8 T cells_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 938.0, 'p-value': 3.0165772430459008e-05}"
+CD8 T cells_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1386.0, 'p-value': 0.0973150726981049}"
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 886.0, 'p-value': 8.055838727319808e-06}"
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 538.0, 'p-value': 1.4012059978742232e-10}"
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 530.0, 'p-value': 1.021557584749166e-10}"
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 710.0, 'p-value': 4.9543690066614156e-08}"
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 736.0, 'p-value': 1.1221013451042503e-07}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 738.0, 'p-value': 1.1991587160645315e-07}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 796.0, 'p-value': 6.687344045241753e-07}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 682.0, 'p-value': 2.0508985046652712e-08}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 732.0, 'p-value': 9.917507891940142e-08}"
+CD8 T cells_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 710.0, 'p-value': 4.939898046885275e-08}"
+CD8 T cells_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1028.0, 'p-value': 0.0002451112474833332}"
+CD8 T cells_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 826.0, 'p-value': 1.5061282876378163e-06}"
+CD8 T cells_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 704.0, 'p-value': 3.8842432337209544e-08}"
+CD8 T cells_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1350.0, 'p-value': 0.06285165466349256}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1054.0, 'p-value': 0.00042968123031427217}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 504.0, 'p-value': 3.842168643528038e-11}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 588.0, 'p-value': 7.834225497420112e-10}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 796.0, 'p-value': 6.604363445839897e-07}"
+CD8 T cells_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 906.0, 'p-value': 1.3329894391527877e-05}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 614.0, 'p-value': 1.9943806146992746e-09}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 742.0, 'p-value': 1.3579580151121363e-07}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 972.0, 'p-value': 6.877933589304031e-05}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 854.0, 'p-value': 3.429670506178939e-06}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1118.0, 'p-value': 0.0015689853971001832}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 914.0, 'p-value': 1.6451997625254683e-05}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 974.0, 'p-value': 7.180691072566134e-05}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1238.0, 'p-value': 0.012826202378109861}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1206.0, 'p-value': 0.00763367115940681}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 568.0, 'p-value': 4.176252370383376e-10}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 648.0, 'p-value': 6.62345205255067e-09}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 710.0, 'p-value': 5.0059178754593173e-08}"
+Myeloid M1 macrophages_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 1034.0, 'p-value': 0.00028009610192955336}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 972.0, 'p-value': 6.878162135163629e-05}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 684.0, 'p-value': 2.058499939980569e-08}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 882.0, 'p-value': 7.277715227471149e-06}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 674.0, 'p-value': 1.5773710294522593e-08}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 822.0, 'p-value': 1.3995343584037935e-06}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1000.0, 'p-value': 0.00013117606724853578}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 942.0, 'p-value': 3.2262855270766403e-05}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 468.0, 'p-value': 8.466663022922826e-12}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1296.0, 'p-value': 0.030517510627536607}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 914.0, 'p-value': 1.6554726544369217e-05}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 740.0, 'p-value': 1.2552875626041284e-07}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 646.0, 'p-value': 6.089955482663393e-09}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 588.0, 'p-value': 8.093341449354961e-10}"
+Myeloid M1 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 822.0, 'p-value': 1.4107464882098473e-06}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 324.0, 'p-value': 2.1450038650199727e-14}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 1004.0, 'p-value': 0.00014414734761004078}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 740.0, 'p-value': 1.2769770514849107e-07}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 916.0, 'p-value': 1.7457171749053543e-05}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1004.0, 'p-value': 0.00014375282341698716}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 626.0, 'p-value': 2.9889108010172874e-09}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 882.0, 'p-value': 7.231050767354238e-06}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1096.0, 'p-value': 0.0010190182229455485}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1006.0, 'p-value': 0.000150707048934846}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 976.0, 'p-value': 7.549648800001066e-05}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 532.0, 'p-value': 1.0722333992944282e-10}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 680.0, 'p-value': 1.862015848997514e-08}"
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 862.0, 'p-value': 4.257119150003851e-06}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 976.0, 'p-value': 7.546670386700862e-05}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 738.0, 'p-value': 1.1125949948438315e-07}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 944.0, 'p-value': 3.5052248443292315e-05}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 704.0, 'p-value': 4.0565248822345086e-08}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 560.0, 'p-value': 2.9948674193444574e-10}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1116.0, 'p-value': 0.0015048499250258493}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 992.0, 'p-value': 0.00010556859170158666}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 616.0, 'p-value': 1.858103169149667e-09}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1116.0, 'p-value': 0.0014973148610826954}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1118.0, 'p-value': 0.0015598755890650832}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 712.0, 'p-value': 4.993433174399648e-08}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 468.0, 'p-value': 8.239218116484139e-12}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 652.0, 'p-value': 6.967819707945336e-09}"
+Myeloid M2 macrophages_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 910.0, 'p-value': 1.4668161231521538e-05}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 438.0, 'p-value': 2.325235371010028e-12}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 716.0, 'p-value': 6.055865877314507e-08}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 888.0, 'p-value': 8.504813684803359e-06}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 828.0, 'p-value': 1.6501143549475028e-06}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 998.0, 'p-value': 0.00012536289694572644}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 444.0, 'p-value': 3.142989625594933e-12}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 796.0, 'p-value': 6.505606521247925e-07}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1290.0, 'p-value': 0.028007377304430467}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 972.0, 'p-value': 6.831431892328136e-05}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 798.0, 'p-value': 6.96712943198002e-07}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 856.0, 'p-value': 3.535762899059937e-06}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 588.0, 'p-value': 7.641548912519811e-10}"
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 1118.0, 'p-value': 0.001552444478014241}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1180.0, 'p-value': 0.004874637067490726}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 676.0, 'p-value': 1.4164541770160281e-08}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 1152.0, 'p-value': 0.002968465268299393}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 616.0, 'p-value': 2.1188822077739223e-09}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 616.0, 'p-value': 1.9112633439877673e-09}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 704.0, 'p-value': 3.898009099781168e-08}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 644.0, 'p-value': 4.841652672313796e-09}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 264.0, 'p-value': 8.404803304190117e-16}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1138.0, 'p-value': 0.0022336603951996683}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 972.0, 'p-value': 6.737577587483137e-05}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 504.0, 'p-value': 3.528324228556472e-11}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 528.0, 'p-value': 8.596800517660971e-11}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 532.0, 'p-value': 9.577036776570996e-11}"
+Myeloid Granulocytes_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 794.0, 'p-value': 6.091700569461862e-07}"
+Myeloid DCs_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 468.0, 'p-value': 7.047800130809773e-12}"
+Myeloid DCs_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 796.0, 'p-value': 6.745096727708192e-07}"
+Myeloid DCs_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 1000.0, 'p-value': 0.0001309216355534945}"
+Myeloid DCs_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 918.0, 'p-value': 1.8224652457927445e-05}"
+Myeloid DCs_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 908.0, 'p-value': 1.418980623636583e-05}"
+Myeloid DCs_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 616.0, 'p-value': 1.89883314197641e-09}"
+Myeloid DCs_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 734.0, 'p-value': 9.660577200699528e-08}"
+Myeloid DCs_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1204.0, 'p-value': 0.007362245057300941}"
+Myeloid DCs_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1180.0, 'p-value': 0.004891621464945943}"
+Myeloid DCs_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 800.0, 'p-value': 7.403315837554617e-07}"
+Myeloid DCs_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 618.0, 'p-value': 2.237052925877888e-09}"
+Myeloid DCs_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 762.0, 'p-value': 2.2418491966479449e-07}"
+Myeloid DCs_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 1054.0, 'p-value': 0.00042434724741818674}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 1320.0, 'p-value': 0.042499560729417456}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 764.0, 'p-value': 2.325316596355691e-07}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 716.0, 'p-value': 6.001118032830618e-08}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 648.0, 'p-value': 6.381348238578511e-09}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 734.0, 'p-value': 9.660010342400417e-08}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1054.0, 'p-value': 0.00042533604619304733}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 936.0, 'p-value': 2.6782613978600192e-05}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 524.0, 'p-value': 6.151863337935902e-11}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1320.0, 'p-value': 0.04233665173868359}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 918.0, 'p-value': 1.8010017196785068e-05}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 682.0, 'p-value': 1.900428884784119e-08}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 586.0, 'p-value': 6.919875878226942e-10}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 856.0, 'p-value': 3.4486549347480172e-06}"
+Myeloid DCs_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 734.0, 'p-value': 9.991329370851416e-08}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 556.0, 'p-value': 2.1681483187341694e-10}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Vessel,,,,"{'Statistic': 888.0, 'p-value': 8.513218050273412e-06}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 708.0, 'p-value': 4.71326109691434e-08}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 712.0, 'p-value': 5.315247243564283e-08}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 946.0, 'p-value': 3.6807780310117236e-05}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 854.0, 'p-value': 3.32449758117843e-06}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.B.cells,,,,"{'Statistic': 824.0, 'p-value': 1.4621418785676434e-06}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1064.0, 'p-value': 0.0005307322200764038}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1178.0, 'p-value': 0.00472674137816072}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 658.0, 'p-value': 9.28081854784527e-09}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 652.0, 'p-value': 7.2638331255924895e-09}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 766.0, 'p-value': 2.717712715212213e-07}"
+Myeloid Monocytes_stromal_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 942.0, 'p-value': 3.306067336121841e-05}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.non.proliferating,,,,"{'Statistic': 948.0, 'p-value': 3.864520204094605e-05}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Tumor.proliferating,,,,"{'Statistic': 650.0, 'p-value': 6.4094783408864466e-09}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Vessel,,,,"{'Statistic': 824.0, 'p-value': 1.4966439794668955e-06}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Fibroblasts,,,,"{'Statistic': 648.0, 'p-value': 6.619358815060189e-09}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.naive,,,,"{'Statistic': 646.0, 'p-value': 5.8150281339978595e-09}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.memory,,,,"{'Statistic': 1144.0, 'p-value': 0.0025550847725383284}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,,,,"{'Statistic': 912.0, 'p-value': 1.4684661962165735e-05}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.B.cells,,,,"{'Statistic': 528.0, 'p-value': 7.931921598590213e-11}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.CD8.T.cells,,,,"{'Statistic': 1142.0, 'p-value': 0.0024470495527257477}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,,,,"{'Statistic': 1148.0, 'p-value': 0.0027544345348425436}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.M2.macrophages,,,,"{'Statistic': 680.0, 'p-value': 1.821283676353266e-08}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.Granulocytes,,,,"{'Statistic': 586.0, 'p-value': 7.374998495753699e-10}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.DCs,,,,"{'Statistic': 710.0, 'p-value': 4.7138990575494625e-08}"
+Myeloid Monocytes_tumorfront_aggregatedNeighbors.Myeloid.Monocytes,,,,"{'Statistic': 914.0, 'p-value': 1.629664896785722e-05}"
