@@ -74,7 +74,7 @@ unique_patients = unique_patients.merge(y, on='patient_id', how = 'left')
 unique_patients = unique_patients.drop_duplicates(subset=['patient_id', 'grade', 'site'])
 unique_patients
 # Split the dataframe into training and validation sets
-train_df, val_df = train_test_split(unique_patients, test_size=0.4, stratify=unique_patients[['site', 'grade']], random_state=1)
+train_df, val_df = train_test_split(unique_patients, test_size=0.4, stratify=unique_patients[['site', 'grade']], random_state=111)
 train_df
 # Print the shapes of the training and validation sets
 print("Training set shape:", train_df.shape)
@@ -113,14 +113,14 @@ stabl = Stabl(
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
     sample_fraction=.5,
-    random_state=1
+    random_state=111
  )
 
-outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=1)
+outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=111)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
 # Multi-omic Training-CV
-np.random.seed(1)
+np.random.seed(111)
 predictions_dict = multi_omic_stabl_cv(
     data_dict=train_data_dict,
     y=train_outcome,
@@ -131,7 +131,7 @@ predictions_dict = multi_omic_stabl_cv(
     save_path=Path(result_folder)
 )
 # Multiomic Training to derive coefficients
-np.random.seed(1)
+np.random.seed(11)
 stabl_multi = Stabl(
     lambda_grid=np.linspace(0.01, 5, 30),
     n_bootstraps=5000,
@@ -141,7 +141,7 @@ stabl_multi = Stabl(
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
     sample_fraction=.5,
-    random_state=1
+    random_state=11
 )
 
 stability_selection = clone(stabl_multi).set_params(artificial_type=None, hard_threshold=.3)
