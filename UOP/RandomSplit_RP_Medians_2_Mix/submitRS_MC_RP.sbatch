@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=RS_MC_RP
+#SBATCH --job-name=RS_MC_RP_new
 #SBATCH --time=48:00:00
 #SBATCH --ntasks=1
 #SBATCH --mem-per-cpu=2G

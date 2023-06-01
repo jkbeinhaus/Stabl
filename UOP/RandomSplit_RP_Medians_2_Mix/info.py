@@ -4,6 +4,6 @@ then concatenated, randomly split with ratio 1:1 for institution and higher/lowe
     
 artificial type:    random_permutation
 var_threshold:      0.01
-bootstrap ratio:    0.5, 0.3 for validation
+bootstrap ratio:    0.5, 0.4 for validation
 Seed:               111
 Train/Test:         60-40
