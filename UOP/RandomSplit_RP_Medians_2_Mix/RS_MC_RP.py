@@ -140,7 +140,7 @@ stabl_multi = Stabl(
     hard_threshold=None,
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
-    sample_fraction=.3,
+    sample_fraction=.4,
     random_state=111
 )
 
