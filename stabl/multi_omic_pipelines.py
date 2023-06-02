@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression, LogisticRegressionCV, Linea
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_selection import VarianceThreshold
-from sklearn.model_selection import RepeatedKFold, RepeatedStratifiedKFold
+from sklearn.model_selection import RepeatedKFold, RepeatedStratifiedKFold, LeaveOneGroupOut, LeaveOneOut
 from sklearn.svm import l1_min_c
 
 from .preprocessing import remove_low_info_samples, LowInfoFilter
@@ -108,7 +108,14 @@ def multi_omic_stabl_cv(
 
     i = 1
     for train, test in outer_splitter.split(X_tot, y, groups=outer_groups):
-        print(f" Iteration {i} over {outer_splitter.get_n_splits()} ".center(80, '*'), "\n")
+
+        # Jonas additional code in case outer_splitter is LeaveOneOut
+        if isinstance(outer_splitter, LeaveOneGroupOut):
+            print(f" Iteration {i} over {outer_splitter.get_n_splits(groups=outer_groups)} ".center(80, '*'), "\n")
+        else:
+            print(f" Iteration {i} over {outer_splitter.get_n_splits()} ".center(80, '*'), "\n")
+        # end additional code
+        
         train_idx, test_idx = y.iloc[train].index, y.iloc[test].index
 
         fold_selected_features = dict()
