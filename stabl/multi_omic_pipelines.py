@@ -261,13 +261,20 @@ def multi_omic_stabl_cv(
 
         jaccard_matrix_dict[model] = jaccard_matrix(selected_features_dict[model])
 
+        # Jonas additional code in case outer_splitter is LeaveOneOut
+        if isinstance(outer_splitter, LeaveOneGroupOut):
+            index=[f"Fold {i}" for i in range(groups = outer_groups)]
+        else:
+            index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits())]
+        # end additional code
         formatted_features_dict[model] = pd.DataFrame(
             data={
                 "Fold selected features": selected_features_dict[model],
                 "Fold nb of features": [len(el) for el in selected_features_dict[model]]
             },
-            index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits())]
+            index=index # Jonas'additional code linked to this parameter
         )
+
         formatted_features_dict[model].to_csv(Path(cv_res_path, f"Selected Features {model}.csv"))
 
     predictions_dict = {model: predictions_dict[model].median(axis=1) for model in predictions_dict.keys()}
