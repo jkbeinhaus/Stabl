@@ -263,7 +263,7 @@ def multi_omic_stabl_cv(
 
         # Jonas additional code in case outer_splitter is LeaveOneOut
         if isinstance(outer_splitter, LeaveOneGroupOut):
-            index=[f"Fold {i}" for i in range(groups = outer_groups)]
+            index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits(groups = outer_groups))]
         else:
             index=[f"Fold {i}" for i in range(outer_splitter.get_n_splits())]
         # end additional code
