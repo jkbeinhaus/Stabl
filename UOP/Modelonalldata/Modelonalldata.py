@@ -65,8 +65,7 @@ data = {
     'Celldensities': X_Celldensities,
     'Function': X_Function,
     'Metavariables': X_Metavariables,
-    'Neighborhood': X_Neighborhood,
-    'Outcome': y
+    'Neighborhood': X_Neighborhood
 }
 y
 from scipy.stats import ttest_ind, mannwhitneyu
