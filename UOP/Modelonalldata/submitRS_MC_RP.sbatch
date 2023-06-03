@@ -9,4 +9,4 @@
 #SBATCH -c 2
 
 module load python/3.9.0
-python3 ScriptJonas_modified.py
+python3 Modelonalldata.py
