@@ -17,10 +17,10 @@ from stabl.multi_omic_pipelines import multi_omic_stabl, multi_omic_stabl_cv, la
 from stabl.single_omic_pipelines import single_omic_stabl, single_omic_stabl_cv
 from stabl.pipelines_utils import compute_features_table
 # Data
-UOP_Celldensities =     pd.read_csv('../DataUOP/UOPpatient_celldensities.csv', index_col=0)
-UOP_Function =          pd.read_csv('../DataUOP/UOPpatient_functional.csv', index_col=0)
-UOP_Metavariables =     pd.read_csv('../DataUOP/UOPpatient_metavariables.csv', index_col=0)
-UOP_Neighborhood =      pd.read_csv('../DataUOP/UOPpatient_neighborhood.csv', index_col=0)
+UOP_Celldensities =     pd.read_csv('../DataUOP/UOPfinal_celldensities.csv', index_col=0)
+UOP_Function =          pd.read_csv('../DataUOP/UOPfinal_functional.csv', index_col=0)
+UOP_Metavariables =     pd.read_csv('../DataUOP/UOPfinal_metavariables.csv', index_col=0)
+UOP_Neighborhood =      pd.read_csv('../DataUOP/UOPfinal_neighborhood.csv', index_col=0)
 
 UOP_data = {
     'UOP_Celldensities': UOP_Celldensities,
@@ -33,7 +33,7 @@ for data_name, data_frame in UOP_data.items():
     numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
     UOP_data[data_name][numeric_columns] = UOP_data[data_name][numeric_columns].apply(zscore)
 
-UOP_y = pd.read_csv('../DataUOP/UOPpatient_outcome.csv',index_col=0)
+UOP_y = pd.read_csv('../DataUOP/UOPfinal_outcome.csv',index_col=0)
 UOP_y = UOP_y.grade-1
 # Compute mean and standard deviation for each data layer in UOP_data
 train_means = {}
@@ -43,10 +43,10 @@ for data_name, data_frame in UOP_data.items():
     train_means[data_name] = data_frame[numeric_columns].mean()
     train_stds[data_name] = data_frame[numeric_columns].std()
 
-STA_Celldensities =     pd.read_csv('../DataStanford/STApatient_celldensities.csv', index_col=0)
-STA_Function =          pd.read_csv('../DataStanford/STApatient_functional.csv', index_col=0)
-STA_Metavariables =     pd.read_csv('../DataStanford/STApatient_metavariables.csv', index_col=0)
-STA_Neighborhood =      pd.read_csv('../DataStanford/STApatient_neighborhood.csv', index_col=0)
+STA_Celldensities =     pd.read_csv('../../Patientlevel/DataStanford/STApatient_celldensities.csv', index_col=0)
+STA_Function =          pd.read_csv('../../Patientlevel/DataStanford/STApatient_functional.csv', index_col=0)
+STA_Metavariables =     pd.read_csv('../../Patientlevel/DataStanford/STApatient_metavariables.csv', index_col=0)
+STA_Neighborhood =      pd.read_csv('../../Patientlevel/DataStanford/STApatient_neighborhood.csv', index_col=0)
 
 STA_data = {
     'STA_Celldensities': STA_Celldensities,
@@ -61,12 +61,12 @@ for data_name, data_frame in STA_data.items():
         numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
         data_frame[numeric_columns] = (data_frame[numeric_columns] - train_means[data_name]) / train_stds[data_name]
 
-STA_y = pd.read_csv('../DataStanford/STApatient_outcome.csv',index_col=0)
+STA_y = pd.read_csv('../../Patientlevel/DataStanford/STApatient_outcome.csv',index_col=0)
 STA_y = STA_y.grade-1
 train_data_dict = UOP_data
 test_data_dict = STA_data
 # Results folder
-result_folder = "./Attempt01"
+result_folder = "./Attempt02"
 # Main script
 for omic_name, X_omic in train_data_dict.items():
     X_omic = remove_low_info_samples(X_omic)
@@ -75,7 +75,7 @@ stabl = Stabl(
     lambda_name='C',
     lambda_grid=np.linspace(0.01, 5, 10),
     n_bootstraps=500,
-    artificial_type="knockoff",
+    artificial_type="random_permutation",
     artificial_proportion=1.,
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
@@ -103,7 +103,7 @@ stabl_multi = Stabl(
     lambda_grid=np.linspace(0.01, 5, 30),
     n_bootstraps=5000,
     artificial_proportion=1.,
-    artificial_type="knockoff",
+    artificial_type="random_permutation",
     hard_threshold=None,
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
