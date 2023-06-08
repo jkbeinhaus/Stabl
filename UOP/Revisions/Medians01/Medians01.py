@@ -61,7 +61,7 @@ for data_name, data_frame in STA_data.items():
         numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
         data_frame[numeric_columns] = (data_frame[numeric_columns] - train_means[data_name]) / train_stds[data_name]
 
-STA_y = pd.read_csv('../DataStanford2medians/STA2median__outcome.csv',index_col=0)
+STA_y = pd.read_csv('../DataStanford2medians/STA2median_outcome.csv',index_col=0)
 STA_y = STA_y.grade-1
 train_data_dict = UOP_data
 test_data_dict = STA_data
