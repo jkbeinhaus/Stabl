@@ -43,10 +43,10 @@ for data_name, data_frame in UOP_data.items():
     train_means[data_name] = data_frame[numeric_columns].mean()
     train_stds[data_name] = data_frame[numeric_columns].std()
 
-STA_Celldensities =     pd.read_csv('../../Patientlevel/DataStanford/STApatient_celldensities.csv', index_col=0)
-STA_Function =          pd.read_csv('../../Patientlevel/DataStanford/STApatient_functional.csv', index_col=0)
-STA_Metavariables =     pd.read_csv('../../Patientlevel/DataStanford/STApatient_metavariables.csv', index_col=0)
-STA_Neighborhood =      pd.read_csv('../../Patientlevel/DataStanford/STApatient_neighborhood.csv', index_col=0)
+STA_Celldensities =     pd.read_csv('../../Patientlevel/DataStanford/STApatient_samplecrossover_celldensities.csv', index_col=0)
+STA_Function =          pd.read_csv('../../Patientlevel/DataStanford/STApatient_samplecrossover_functional.csv', index_col=0)
+STA_Metavariables =     pd.read_csv('../../Patientlevel/DataStanford/STApatient_samplecrossover_metavariables.csv', index_col=0)
+STA_Neighborhood =      pd.read_csv('../../Patientlevel/DataStanford/STApatient_samplecrossover_neighborhood.csv', index_col=0)
 
 STA_data = {
     'STA_Celldensities': STA_Celldensities,
@@ -61,7 +61,7 @@ for data_name, data_frame in STA_data.items():
         numeric_columns = data_frame.select_dtypes(include=['float64', 'int64']).columns
         data_frame[numeric_columns] = (data_frame[numeric_columns] - train_means[data_name]) / train_stds[data_name]
 
-STA_y = pd.read_csv('../../Patientlevel/DataStanford/STApatient_outcome.csv',index_col=0)
+STA_y = pd.read_csv('../../Patientlevel/DataStanford/STApatient_samplecrossover_outcome.csv',index_col=0)
 STA_y = STA_y.grade-1
 train_data_dict = UOP_data
 test_data_dict = STA_data
