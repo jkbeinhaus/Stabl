@@ -1,0 +1,20 @@
+,Statistic,meandifference higher-lower,p-value ttest,p-value mannwhitneyu,FDR-adjusted p-value ,FDR-adjusted p-value 0.05,FDR-adjusted p-value 0.1
+Tumor non-proliferating_intratumor_cellfrequency,403,1095.466588,0.009148902,0.009187493,0.064215569,FALSE,TRUE
+Vessel_tumorfront_cellfrequency,523,139.0974686,0.198748705,0.220625574,0.343293218,FALSE,FALSE
+CD4 T cells memory_intratumor_cellfrequency,647.5,-0.103269641,0.327668256,0.338142695,0.402579537,FALSE,FALSE
+Myeloid M1 macrophages_intratumor_cellfrequency,675,-31.36328083,0.319957356,0.605322786,0.402579537,FALSE,FALSE
+Myeloid M1 macrophages_stromal_cellfrequency,828,-124.0804053,0.054550981,0.023114189,0.172744772,FALSE,FALSE
+Myeloid M1 macrophages_tumorfront_cellfrequency,913,-194.6653608,0.0101393,0.001157876,0.064215569,FALSE,TRUE
+Myeloid Monocytes_stromal_cellfrequency,693,-23.35890534,0.312020992,0.472215747,0.402579537,FALSE,FALSE
+CD8 T cells_intratumor_CD36,781,-0.056680408,0.148021593,0.07822913,0.281241026,FALSE,FALSE
+Myeloid Granulocytes_stromal_GranzymeB,492.5,0.307485369,0.118534784,0.11499994,0.255158775,FALSE,FALSE
+Myeloid Granulocytes_stromal_Ki67,551,0.046439995,0.120864683,0.366387953,0.255158775,FALSE,FALSE
+Tumor non-proliferating_intratumor_area,685,-1.40515245,0.845297411,0.530784083,0.845297411,FALSE,FALSE
+CD4 T cells memory_stromal_area,840,-7.956867162,0.021684343,0.015966477,0.088692566,FALSE,TRUE
+CD8 T cells_intratumor_area,787.5,-20.35146647,0.023340149,0.066190769,0.088692566,FALSE,TRUE
+Vessel_tumorfront_eccentricity,659,-0.005957537,0.372580145,0.743077148,0.416413103,FALSE,FALSE
+Fibroblasts_tumorfront_aggregatedNeighbors.Myeloid.M1.macrophages,884,-0.025007199,0.00966705,0.003545046,0.064215569,FALSE,TRUE
+CD4 T cells memory_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,783.5,-0.016045519,0.110769597,0.07790869,0.255158775,FALSE,FALSE
+B cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,756.5,-0.013113083,0.259348109,0.139426932,0.402579537,FALSE,FALSE
+CD8 T cells_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,710,-0.006629618,0.431287403,0.359870437,0.455247814,FALSE,FALSE
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.Monocytes,583.5,0.006856928,0.339014347,0.596252698,0.402579537,FALSE,FALSE

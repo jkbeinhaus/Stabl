@@ -1,0 +1,23 @@
+,Statistic,meandifference higher-lower,p-value ttest,p-value mannwhitneyu,FDR-adjusted p-value ,FDR-adjusted p-value 0.05,FDR-adjusted p-value 0.1
+Tumor non-proliferating_intratumor_cellfrequency,403,1095.466588,0.009148902,0.009187493,0.044612921,TRUE,TRUE
+Tumor proliferating_tumorfront_cellfrequency,935,-408.0189575,0.000163302,0.000461636,0.001796321,TRUE,TRUE
+Vessel_tumorfront_cellfrequency,523,139.0974686,0.198748705,0.220625574,0.336343963,FALSE,FALSE
+CD4 T cells memory_intratumor_cellfrequency,647.5,-0.103269641,0.327668256,0.338142695,0.424041273,FALSE,FALSE
+CD4 T cells memory_stromal_cellfrequency,1002,-496.7735137,1.69E-05,1.93E-05,0.000371868,TRUE,TRUE
+Myeloid M1 macrophages_intratumor_cellfrequency,675,-31.36328083,0.319957356,0.605322786,0.424041273,FALSE,FALSE
+Myeloid M1 macrophages_stromal_cellfrequency,828,-124.0804053,0.054550981,0.023114189,0.150015197,FALSE,FALSE
+Myeloid M1 macrophages_tumorfront_cellfrequency,913,-194.6653608,0.0101393,0.001157876,0.044612921,TRUE,TRUE
+Myeloid Monocytes_stromal_cellfrequency,693,-23.35890534,0.312020992,0.472215747,0.424041273,FALSE,FALSE
+CD4 T cells regulatory_stromal_pS6,680,-0.054834691,0.668280905,0.568968327,0.735108995,FALSE,FALSE
+Myeloid Granulocytes_stromal_GranzymeB,511.5,0.319788585,0.154172825,0.174613716,0.282650179,FALSE,FALSE
+Tumor non-proliferating_intratumor_area,661.5,0.886904762,0.898885286,0.721407213,0.941689347,FALSE,FALSE
+CD4 T cells memory_stromal_area,830,-8.183333333,0.019404018,0.021688627,0.071148064,FALSE,TRUE
+CD4 T cells regulatory_tumorfront_area,836.5,-19.7484127,0.002508659,0.017460271,0.018396834,TRUE,TRUE
+CD8 T cells_intratumor_area,745,-17.23730159,0.051676938,0.18028202,0.150015197,FALSE,FALSE
+Vessel_tumorfront_eccentricity,741,-0.011970266,0.106948673,0.203774638,0.235287082,FALSE,FALSE
+CD4 T cells naive_tumorfront_celldistance,517,2.016394556,0.100683136,0.195259324,0.235287082,FALSE,FALSE
+Myeloid M2 macrophages_tumorfront_celldistance,571.5,0.681087877,0.553467735,0.504728082,0.640857378,FALSE,FALSE
+Myeloid Granulocytes_tumorfront_celldistance,724,-2.118263126,0.132975909,0.282136383,0.265951818,FALSE,FALSE
+Myeloid Monocytes_tumorfront_celldistance,709.5,-0.052914656,0.965776555,0.363564508,0.965776555,FALSE,FALSE
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.M1.macrophages,610,0.008888889,0.520165447,0.612991106,0.635757769,FALSE,FALSE
+Myeloid Granulocytes_stromal_aggregatedNeighbors.Myeloid.Monocytes,647.5,-0.005555556,0.327668256,0.338142695,0.424041273,FALSE,FALSE

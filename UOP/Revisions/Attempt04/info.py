@@ -1,7 +1,7 @@
 Datainput: Stanford2 for validation 
 UOP zscored then normalization applied to stanford cohort
     
-artificial type:    knockoff
+artificial type:    random permutation
 var_threshold:      0.01
-bootstrap ratio:    0.5
+bootstrap ratio:    0.3
 Seed:               111
