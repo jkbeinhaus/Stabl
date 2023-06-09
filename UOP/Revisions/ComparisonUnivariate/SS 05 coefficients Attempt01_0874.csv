@@ -1,0 +1,22 @@
+Feature,Associated weight,pvalue STA,FDR adjusted ,,,,
+Tumor non-proliferating_intratumor_cellfrequency,25.14212421,0.009187493,0.041342909,,,,Model Features of Attempt01 Revisions
+Tumor proliferating_tumorfront_cellfrequency,7.898753592,0.000461636,0.001410842,,,,Training: AUC 0.87
+Vessel_tumorfront_cellfrequency,7.401094729,0.220625574,,,,,Testing: AUC 0.5
+CD4 T cells memory_intratumor_cellfrequency,-13.29715679,0.338142695,,,,,
+CD4 T cells memory_stromal_cellfrequency,-17.40426646,1.93E-05,0.000354965,,,,
+Myeloid M1 macrophages_intratumor_cellfrequency,12.58947048,0.605322786,,,,,
+Myeloid M1 macrophages_stromal_cellfrequency,9.544562204,0.023114189,,,,,
+Myeloid M1 macrophages_tumorfront_cellfrequency,9.659564729,0.001157876,0.041342909,opposite direction,,,
+Myeloid Monocytes_stromal_cellfrequency,19.71764663,0.472215747,,,,,
+CD4 T cells regulatory_stromal_pS6,-0.59611279,0.500864578,,,,,
+Myeloid Granulocytes_stromal_GranzymeB,-0.687254156,0.11499994,,,,,
+Myeloid Granulocytes_stromal_Ki67,-2.368825252,0.366387953,,,,,
+Tumor non-proliferating_intratumor_area,0.585215216,0.530784083,,,,,
+CD4 T cells memory_stromal_area,-18.18711999,0.015966477,0.132859309,,,,
+CD8 T cells_intratumor_area,1.847259464,0.066190769,,,,,
+Vessel_tumorfront_eccentricity,-9.211416567,0.743077148,,,,,
+Fibroblasts_tumorfront_celldistance,2.065281682,0.354530197,,,,,
+Myeloid Granulocytes_tumorfront_celldistance,12.38899909,0.19169102,,,,,
+Myeloid Monocytes_tumorfront_celldistance,-3.006762182,1,,,,,
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,-0.774143937,0.009332306,0.104837464,,,,
+Myeloid M2 macrophages_stromal_aggregatedNeighbors.Myeloid.Monocytes,9.502721466,0.596252698,,,,,

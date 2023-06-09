@@ -1,0 +1,15 @@
+,Statistic,meandifference higher-lower,p-value ttest,p-value mannwhitneyu,FDR-adjusted p-value ,FDR-adjusted p-value 0.05,FDR-adjusted p-value 0.1
+Tumor non-proliferating_intratumor_cellfrequency,403,1095.466588,0.009148902,0.009187493,0.047316735,TRUE,TRUE
+CD4 T cells memory_intratumor_cellfrequency,647.5,-0.103269641,0.327668256,0.338142695,0.417032326,FALSE,FALSE
+CD4 T cells memory_stromal_cellfrequency,1002,-496.7735137,1.69E-05,1.93E-05,0.000236643,TRUE,TRUE
+Myeloid M1 macrophages_intratumor_cellfrequency,675,-31.36328083,0.319957356,0.605322786,0.417032326,FALSE,FALSE
+Myeloid M1 macrophages_stromal_cellfrequency,828,-124.0804053,0.054550981,0.023114189,0.109101962,FALSE,FALSE
+Myeloid M1 macrophages_tumorfront_cellfrequency,913,-194.6653608,0.0101393,0.001157876,0.047316735,TRUE,TRUE
+Myeloid Monocytes_stromal_cellfrequency,693,-23.35890534,0.312020992,0.472215747,0.417032326,FALSE,FALSE
+Tumor non-proliferating_intratumor_pS6,765,-0.267038598,0.158134154,0.121888094,0.276734769,FALSE,FALSE
+CD4 T cells regulatory_stromal_pS6,689,-0.088449778,0.486716105,0.500864578,0.524155805,FALSE,FALSE
+Tumor non-proliferating_intratumor_area,685,-1.40515245,0.845297411,0.530784083,0.845297411,FALSE,FALSE
+CD4 T cells memory_stromal_area,840,-7.956867162,0.021684343,0.015966477,0.065352417,FALSE,TRUE
+CD8 T cells_intratumor_area,787.5,-20.35146647,0.023340149,0.066190769,0.065352417,FALSE,TRUE
+Vessel_tumorfront_eccentricity,659,-0.005957537,0.372580145,0.743077148,0.434676836,FALSE,FALSE
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,849.5,-0.001987532,0.033918003,0.009332306,0.079142007,FALSE,TRUE
