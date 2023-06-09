@@ -1,0 +1,15 @@
+Feature,Associated weight
+Tumor non-proliferating_intratumor_cellfrequency,22.69184529856691
+CD4 T cells memory_intratumor_cellfrequency,-12.580951639590383
+CD4 T cells memory_stromal_cellfrequency,-14.77291037368716
+Myeloid M1 macrophages_intratumor_cellfrequency,12.909934082419833
+Myeloid M1 macrophages_stromal_cellfrequency,6.838265657490064
+Myeloid M1 macrophages_tumorfront_cellfrequency,9.702111028904401
+Myeloid Monocytes_stromal_cellfrequency,21.44966538482408
+Tumor non-proliferating_intratumor_pS6,12.208507805297605
+CD4 T cells regulatory_stromal_pS6,-2.8187603297782893
+Tumor non-proliferating_intratumor_area,-5.443569867809001
+CD4 T cells memory_stromal_area,-10.666905454451275
+CD8 T cells_intratumor_area,-2.593872305884506
+Vessel_tumorfront_eccentricity,-3.33899340690671
+Tumor non-proliferating_tumorfront_aggregatedNeighbors.CD4.T.cells.regulatory,-1.6282936443714844
