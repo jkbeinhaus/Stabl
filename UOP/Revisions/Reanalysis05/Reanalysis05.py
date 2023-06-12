@@ -66,7 +66,7 @@ STA_y = STA_y.grade-1
 train_data_dict = UOP_data
 test_data_dict = STA_data
 # Results folder
-result_folder = "./Attempt01"
+result_folder = "./Attempt05"
 # Main script
 for omic_name, X_omic in train_data_dict.items():
     X_omic = remove_low_info_samples(X_omic)
@@ -75,29 +75,39 @@ stabl = Stabl(
     lambda_name='C',
     lambda_grid=np.linspace(0.01, 5, 10),
     n_bootstraps=500,
-    artificial_type="random_permutation",
+    artificial_type="knockoff",
     artificial_proportion=1.,
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
-    sample_fraction=.5,
+    sample_fraction=.7,
     random_state=111
  )
 
-outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=111)
+outer_splitter = RepeatedStratifiedKFold(n_splits=5, n_repeats=20, random_state=1)
 
 stability_selection = clone(stabl).set_params(artificial_type=None, hard_threshold=0.5)
-
+# Multi-omic Training-CV
+np.random.seed(111)
+predictions_dict = multi_omic_stabl_cv(
+    data_dict=train_data_dict,
+    y=UOP_y,
+    outer_splitter=outer_splitter,
+    stabl=stabl,
+    stability_selection=stability_selection,
+    task_type="binary",
+    save_path=Path(result_folder)
+)
 # Multiomic Training to derive coefficients
 np.random.seed(111)
 stabl_multi = Stabl(
     lambda_grid=np.linspace(0.01, 5, 30),
     n_bootstraps=5000,
     artificial_proportion=1.,
-    artificial_type="random_permutation",
+    artificial_type="knockoff",
     hard_threshold=None,
     replace=False,
     fdr_threshold_range=np.arange(0.2, 1, 0.01),
-    sample_fraction=.5,
+    sample_fraction=.7,
     random_state=111
 )
 
